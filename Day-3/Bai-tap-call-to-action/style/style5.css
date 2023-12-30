@@ -1,0 +1,20 @@
+img {
+    width: 190px;
+    height: 50px;
+}
+.call-action {
+    text-align: center;
+}
+b {
+    color: #00afe1;
+}
+
+button {
+    border: 0;
+    background-color: #2c3033;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 5px;
+}

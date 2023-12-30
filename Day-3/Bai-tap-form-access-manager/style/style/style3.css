@@ -1,0 +1,43 @@
+#lbl-username {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+#lbl-password {
+    margin-left: 44px;
+    margin-bottom: 10px;
+
+}
+#lbl-city {
+    margin-left: 24px;
+    margin-bottom: 10px;
+
+}
+#lbl-webserver {
+    margin-left: 34px;
+
+}
+.take-data {
+    width: 350px;
+}
+
+.btn-reset {
+    margin-left: 10px;
+}
+.bnt-button {
+    margin-left: 114px;
+}
+
+.btn-radio-first {
+    margin-left: 46px;
+}
+.btn-radio {
+    margin-left: 113px;
+}.btn-checkbox {
+    margin-left: 114px;
+}
+#btn-checkbox {
+    margin-bottom: 15px;
+}
+
+
+

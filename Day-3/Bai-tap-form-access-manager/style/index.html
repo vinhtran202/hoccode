@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập 3</title>
+    <link rel="stylesheet" href="./style/style3.css">
+</head>
+<body>
+    <form action="">
+    <div class="take-data">
+        <div>
+            <label for="lbl-username">Username:</label>
+            <input 
+            type="text" 
+            id="lbl-username" 
+            name="username">
+        </div>
+        <div>
+            <label for="lbl-password">Password:</label>
+            <input 
+            type="password" 
+            id="lbl-password" 
+            name="password">
+        </div>
+        <div>
+            <label for="lbl-city">City of <br> Employment:</label>
+            <input 
+            type="text" 
+            id="lbl-city" 
+            name="text">
+        </div>
+        <div>
+            <label for="lbl-webserver" >Web server:</label>
+            <select name="webserver" id="lbl-webserver">
+                <option value="" >-Choose a server-</option>
+                <option value="sv1">server 1</option>
+                <option value="sv2" >server 2</option>
+                <option value="sv3">server 3</option>
+
+            </select>
+        </div>
+        <div>
+            <label>Please specify <br> your role:</label>
+            
+            <label>
+                <input type="radio" name="work" 
+                value="admin" class="btn-radio-first">Admin
+            </label>
+            <div></div>
+            <label>
+                <input type="radio" name="work" 
+                value="engineer"  class="btn-radio">Engineer
+            </label>
+            <div></div>
+            <label>
+                <input type="radio" name="work" 
+                value="manager"  class="btn-radio">Manager
+            </label>
+            <div></div>
+            <label>
+                <input type="radio" name="work" 
+                value="guest"  class="btn-radio">Guest
+            </label>
+        </div>
+        <div>
+            <label>Single Sign-on <br> to the following:</label>
+           
+            <label>
+                <input type="checkbox" name="source" 
+                value="1">Mail
+            </label>
+            <div></div>
+            <label>
+                <input type="checkbox" name="source" 
+                value="2" class="btn-checkbox">Payrol
+            </label>
+            <div></div>
+            <label>
+                <input type="checkbox" name="source" 
+                value="3" id="btn-checkbox" class="btn-checkbox">Self-service
+            </label>
+        </div>
+            <button type="button"  class="bnt-button">Login</button>
+            <button type="reset" class="btn-reset">Reset</button>
+        
+        </div>
+    </div>
+</form>
+</body>
+</html>
