@@ -1,0 +1,68 @@
+body {
+    width: 1200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #392517 ;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #3a2516;
+    
+}
+
+.container {
+    padding-left: 230px;
+}
+
+.container .container-item {
+    float: left;
+    line-height: 80px;
+}
+
+.container .container-left {
+    width: 380px;
+}
+
+input {
+    width: 330px;
+    height: 55px;
+    font-size: 20px;
+    padding-left: 25px;
+    border: 1px solid #dedede;
+
+}
+
+h3, input {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h1, button {
+    font-family: 'Alfa Slab One', serif;
+}
+
+button {
+    width: 362px;
+    height: 62px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: #af322b;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #79241f;
+    
+}
+/* .container input:focus::placeholder {
+    color: #3e3e3e;
+} */
+
+input::placeholder {
+    color: #3e3e3e;
+}

@@ -1,0 +1,63 @@
+section {
+  width: 1200px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+}
+
+.menu ul {
+  background-color: rgb(224, 224, 224);
+  list-style-type: none;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0;
+  margin-left: 220px;
+
+}
+
+.menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.menu a:hover {
+  background: #28378d;
+  color: white;
+}
+
+.products {
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
+img {
+  width: 220px;
+  height: 200px;
+}
+
+.products .best-seller {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.product-reviews {
+  color: rgb(255, 189, 6);
+}
+
+.price .text {
+  color: gray;
+}
