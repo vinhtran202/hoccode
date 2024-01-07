@@ -1,3 +1,4 @@
+
 section {
   width: 1200px;
 }
@@ -45,9 +46,100 @@ h1 {
   padding-left: 100px;
 }
 
-img {
+.card {
+  position: relative;
   width: 220px;
   height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 12px #ccc;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+.card img:hover {
+  transform: scale(1.2);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  transform: translateY(100%);
+  transition: 0.5s ease;
+}
+
+.card:hover .overlay {
+  transform: translateY(0%);
+}
+
+.overlay .button-first {
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.button-first button {
+  width: 50px;
+  height: 40px;
+}
+
+.button-first ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding-inline-start: 0px;
+
+}
+
+.button-first li {
+  float: left;
+}
+
+.button-first li:hover{
+  transform: scale(1.2);
+}
+
+.button-first li i {
+  display: inline-block;
+  padding: 14px 16px;
+}
+
+.button-first i {
+  width: 30px;
+  height: 20px;
+  background-color: #28378d;
+  
+} 
+
+.button-first ul li:not(:first-child) {
+  margin-left: 17px;
+}
+
+.add-card {
+  width: 100%;
+  height: 50px;
+}
+
+.add-card button {
+  border: none;
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  color: white;
+  background-color: #28378d;
+}
+
+.add-card button:hover{
+  transform: scale(1.2);
 }
 
 .products .best-seller {
@@ -62,4 +154,10 @@ img {
 
 .price .text {
   color: gray;
+}
+
+
+.price {
+  width: 215px;
+  margin-top: 20px;
 }
