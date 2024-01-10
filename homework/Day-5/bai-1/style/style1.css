@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+ body {
+    width: 1200px;
+    height: 800px;
+    padding-left: 100px;
+    padding-top: 50px;
+    border: 2px solid #ccc;
+} 
+
+
+h1 {
+    font-family: "Lobster";
+}
+p {
+    font-family: "lato";
+}
+b{
+    color:rgb(255, 145, 0);
+}
+div.form {
+    border: 1px solid rgb(206, 206, 206);
+    border-width: 1px;
+    width: 600px;
+}
+.form .icons-submit {
+    float: left;
+
+}
+
+.form i:first-child {
+    padding-bottom: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-left: 12px;
+    background-color: rgb(206, 206, 206);
+    color: white;
+}
+
+.form i:last-child{
+color: rgb(206, 206, 206);
+}
+
+.form input {
+    width: 525px;
+    height: 36px;
+    border: none;
+    
+}
+.subject-option {
+    width: 548px;
+    height: 36px;
+    border: none;
+
+}
+
+.form {
+    margin-bottom:25px;
+}
+
+.name:focus {
+    background-color: black;
+}
+.message {
+    height: 200px;
+}
+
+.message i {
+    height: 178px;
+}
+
+.footer {
+    float: left;
+}
+
+.footer-check button {
+    margin-left: 270px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: coral;
+    color: white;
+    border: none;
+}
+

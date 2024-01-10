@@ -1,0 +1,87 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+   }
+
+   body {
+    width: 1200px;
+    margin-top: 50px;
+   }
+   h1 {
+    font-size: 34px;
+   }
+
+   .cycle {
+    width: 120px;
+    height: 120px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+   }
+
+   .cycle i {
+    color: orange;
+    display: inline-block;
+   }
+
+   .fa-2xl{
+    font-size: 55px;
+    margin-top: 55px;
+   }
+
+   .big-title,
+   .small-title {
+    text-align: center;
+   }
+
+   .small-title {
+    padding-bottom: 100px;
+   }
+   .card {
+    margin-left: 100px;
+   }
+
+   .card-type {
+    float: left;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    border: 0px solid rgb(255, 255, 255);
+    margin-left: 30px;
+    box-shadow: 0 5px 10px rgb(216, 216, 216);
+   }
+
+   img {
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 202, 28);
+    padding-bottom: 30px;
+    padding-top: 30px;
+   }
+    .sub-title,
+    .content {
+        padding-bottom: 20px;
+    }
+
+    .content{
+        line-height: 1.8;
+    }
+
+   button {
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+   }
+
+   button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 136, 0);
+   }
