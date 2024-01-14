@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://uiwebsoft.com/justlog/login-one/images/login-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Nunito",sans-serif;
+}
+
+.form-login {
+    display: flex;
+    height: 500px;
+    width: 900px;
+    box-shadow: 3px 3px 1px 1px #00000009;
+    margin: auto;
+    margin-top: 170px;
+}
+
+.icon-id {
+    float: left;
+}
+
+.left {
+    background-color: #ff574d;
+    width: 40%;
+    text-align: center;
+    border-radius: 2% 0% 0% 2%;
+}
+
+.title-first {
+float: left;
+margin-left: 10px;
+}
+
+.logo h1 {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.425);
+}
+
+.tilte .logo h1 {
+    margin-left: 80px;
+    font-size: 30px;
+    padding-top: 5px;
+    color: #ff574d;
+    background-color: white;
+}
+
+span {
+    color: #ff574d;
+}
+
+.left h1 {
+    color: white;
+    font-size: 35px;
+    margin-top: 95px;
+}
+
+.left .paragraph {
+    font-size: 18px;
+    padding: 30px 15px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    line-height: 1.6;
+}
+
+.left button {
+    width: 160px;
+    height: 40px;
+    color: #ff574d;
+    background-color: white;
+    border: none;
+    border-radius: 2%;
+}
+
+.left button:hover {
+    background-color: #ee1b10;
+    color: white;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 17px;
+    margin-left: 85px;
+    color: white ;
+    padding-top: 50px;
+    border: none;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.icon-id{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(119, 26, 16, 0.205);
+    padding-top: 7px;
+    border-radius: 10%;
+}
+
+.icon-id:not(:first-child) {
+    margin-left: 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 0 2% 2% 0;
+}
+
+
+.right h1 {
+    font-size: 32px;
+    margin: 60px 40px 15px 40px;
+}
+
+hr {
+    color: #ff574d ;
+    width:100px ;
+    size:3px ;
+    align: center;
+    margin-bottom: 45px;
+}
+
+.user-name,
+.password {
+    width: 380px;
+}
+
+.header {
+    float: left;
+}
+
+input:not([type="checkbox"]) {
+    padding: 12px;
+    width: 100%;
+    height: 50px;
+    margin: 15px;
+    border:  none;
+    border-radius: 2%;
+    box-shadow: 1px 1px 1px 1px rgba(5, 5, 5, 0.075);
+}
+
+.right button {
+    padding: 12px 30px ;
+    width: 380px;
+    margin-top: 40px;
+    margin-left: 28px;
+    background-color: #ff574d;
+    color: white;
+    border: none;
+    border-radius: 2%;
+}
+
+.right .login {
+    margin-bottom: 30px;
+}
+
+.right .login button:focus {
+    background-color: #ff1500;
+}
+.right .login button:hover {
+    background-color: #7e4947;
+    cursor: pointer;
+}
+
+#checkbox {
+    width: 30px;
+    display: inline-block;
+}
+
+.remember {
+    width: 250px;
+}
+
+.remember input {
+    margin: 0;
+}
+
+.rule {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+
