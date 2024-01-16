@@ -1,0 +1,65 @@
+
+
+section {
+    width: 1680px;
+    height: 670px;
+    font-family: "Asap Condensed", sans-serif;
+}
+
+.container {
+    background-image: url(https://cdn.houseviet.vn/images/project/23042023/ha-noi-melody-residences-cover.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: absolute;
+    
+}
+
+.container .card {
+    width: 740px;
+    height: 260px;
+    background-color: rgba(255, 255, 255, 0.8) ;
+    z-index: 999;
+    margin-top: 210px;
+    margin-left: 310px;
+    padding: 20px 40px;
+    border-radius: 10px;
+
+}
+
+.card h1 {
+    color: #bf4240;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 450;
+    font-style: normal;
+
+}
+
+.card p,
+.card h3 {
+    color: #3f3424;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.card h3 {
+    font-size: 24px;
+    color: #3f3424;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 10px;
+}
+
+.container .price {
+    width: 200px;
+    color: white;
+    text-align: center;
+    background-color: #bf4240;
+    position: absolute;
+    margin-left: 888px;
+    margin-top: -25px;
+    border-radius: 10px;
+    font-size: 21px;
+
+}

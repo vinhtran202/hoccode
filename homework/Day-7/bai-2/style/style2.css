@@ -1,0 +1,81 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  height: 2000px;
+  font-family: "Asap", sans-serif;
+}
+
+header {
+  background: rgba(137, 255, 3, 0.541)
+    url(https://ircdn.vingroup.net/storage/Uploads/Photos/Landmark81banner.jpg)
+    no-repeat 0 0 / cover fixed;
+  background-position: center bottom;
+  width: 100%;
+  height: 450px;
+}
+
+.logo {
+  position: absolute;
+}
+.logo img {
+  width: 220px;
+  height: 220px;
+  margin-top: 260px;
+  margin-left: 155px;
+}
+
+.pagename {
+  margin-top: 294px;
+  margin-left: 400px;
+  position: absolute;
+  color: white;
+}
+
+.pagename h1 {
+  padding-bottom: 50px;
+  font-size: 35px;
+}
+
+.pagename span{
+  font-size: 24px;
+}
+
+.pagename p {
+  display: inline-block;
+  float: left;
+}
+
+.pagename p:last-child {
+  padding-left: 20px;
+}
+
+.menu ul {
+  padding: 10px;
+  width: 27%;
+  margin-left: auto;
+
+}
+
+.menu ul li {
+  float: left;
+  list-style-type: none;
+  background-color: white;
+  margin-left: 30px;  
+  font-size:  18px ;
+}
+.menu ul li:hover,
+.menu ul a:focus {
+  border-bottom: 4px solid orange; 
+}
+
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
