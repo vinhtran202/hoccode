@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(236, 233, 233, 0.397);
+}
+section {
+  text-align: center;
+  height: 100vh;
+  padding-top: 10px;
+}
+
+.footer h1 {
+    font-size: 48px;
+
+}
+
+.footer p {
+    font-size: 26px;
+}
+
+section .import {
+  padding-top: 50px;
+  display: grid;
+  /* grid-template-columns: 600px 600px;  
+    grid-template-rows: 80px;  
+    justify-content: space-between;
+    margin: 0px auto; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 30px 150px 5px 150px;
+}
+
+.input-group{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+   position: relative;
+   width: 100%;
+   padding: 20px 10px 10px;
+   background: transparent;
+   outline: none;
+   border: 1px solid rgba(128, 128, 128, 0.122);
+   box-shadow: none;
+   color: #23242a;
+   font-size: 1em;
+   letter-spacing: 0.05em;
+   transition: 0.5s;
+   z-index: 9999;
+}  
+
+.footer span {
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+
+}
+
+input:valid ~ span,
+input:focus ~ span  {
+    color: #8f8f8f;
+    font-size: 0.75em;
+    transform: translateY(-34px);
+}
+
+textarea:valid ~ span,
+textarea:focus ~ span {
+    color: #8f8f8f;
+    font-size: 0.75em;
+    transform: translateY(-34px);
+}
+
+section .import .selection {
+  position: relative;
+  margin: 0;
+  color: black;
+  height: 50px;
+  border: 1px solid rgba(128, 128, 128, 0.122);
+  background: transparent;
+}
+
+section .message-impot {
+    width: 84%;
+    height: 200px;
+    margin: 0px 150px;
+    color: black;
+    border: 1px solid rgba(128, 128, 128, 0.122);
+    background: transparent;
+    margin-top: 20px;
+}
+
+section button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background: rgba(0, 0, 255, 0.656);
+    color: white;
+    font-size: 17px;
+    font-style: 900;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+section button:hover {
+    cursor: pointer;
+}
+
+

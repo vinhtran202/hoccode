@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  font-family: "Lora", serif;
+}
+
+.wrapper .container {
+  padding-top: 10px;
+}
+
+.wrapper .container .hero-section {
+  width: 80%;
+  margin: 0px auto;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.wrapper .container .hero-section .gallery {
+  width: 100%;
+  height: 340px;
+  position: relative;
+  border: 1px solid rgba(128, 128, 128, 0.153);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+}
+
+.wrapper .container .hero-section .gallery .image-section {
+  width: 100%;
+}
+
+.wrapper .container .hero-section .gallery .image-section i {
+  font-size: 38px;
+  padding-bottom: 25px;
+  display: block;
+  color: rgb(191, 43, 6);
+}
+
+.wrapper .container .hero-section .gallery .image-section .title {
+  font-size: 26px;
+  padding-bottom: 35px;
+  letter-spacing: 1px;
+}
+
+.wrapper .container .hero-section .gallery .image-section .sub-title {
+  color: gray;
+}
+
+.wrapper .container .hero-section .gallery .caption {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.one {
+  background: url(https://fastly.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA);
+}
+
+.two {
+  background: no-repeat
+    url(https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0);
+}
+
+.three {
+  background: no-repeat
+    url(https://fastly.picsum.photos/id/1084/536/354.jpg?grayscale&hmac=Ux7nzg19e1q35mlUVZjhCLxqkR30cC-CarVg-nlIf60);
+}
+
+.four {
+  background: no-repeat
+    url(https://fastly.picsum.photos/id/1060/536/354.jpg?blur=2&hmac=0zJLs1ar00sBbW5Ahd_4zA6pgZqCVavwuHToO6VtcYY);
+}
+
+.five {
+  background: no-repeat
+    url(https://fastly.picsum.photos/id/870/536/354.jpg?blur=2&grayscale&hmac=A5T7lnprlMMlQ18KQcVMi3b7Bwa1Qq5YJFp8LSudZ84);
+}
+
+.six {
+  background: no-repeat
+    url(https://fastly.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA);
+}
+
+.wrapper .container .hero-section .gallery .caption .inside {
+  background: rgba(165, 42, 42, 0.633);
+  position: relative;
+  left: -15px;
+  margin-right: -30px;
+  margin-top: -15px;
+  height: 340px;
+  text-align: center;
+  padding: 20px;
+}
+
+.wrapper .container .hero-section .gallery .caption:hover {
+  opacity: 1;
+  transition: translate y ;
+}
+
+.wrapper .container .hero-section .gallery .caption p {
+  font-size: 16px;
+  padding: 30px;
+}
+
+.wrapper .container .hero-section .gallery .caption .inside .border {
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 300px;
+}
+
+.wrapper .container .hero-section .gallery .caption .inside .border h1 {
+  padding: 20px 20px 0 20px;
+  font-size: 26px;
+  text-align: left;
+}
+.wrapper .container .hero-section .gallery .caption .inside .border p {
+  font-size: 16px;
+  text-align: left;
+  padding: 15px 20px;
+}
+
+.wrapper .container .hero-section .gallery .caption .inside .border .circle {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 3px;
+  display: inline-block;
+  position: absolute;
+  left: 150px;
+  bottom: 35px;
+}
+
+.wrapper
+  .container
+  .hero-section
+  .gallery
+  .caption
+  .inside
+  .border
+  .circle:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.wrapper .container .hero-section .gallery .caption .inside .border a {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  left: 50px;
+  bottom: 40px;
+}
