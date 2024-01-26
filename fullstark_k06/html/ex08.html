@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HTML Form</h2>
+    <form action="https://api-gateway.fullstack.edu.vn/action_page.php" method="post">
+        <div>
+            <label for="lbl-name">Họ và tên</label>
+            <input 
+            type="text" 
+            id="lbl-name" 
+            name="name" 
+            placeholder="Họ và Tên"/>
+        </div>
+        <div>
+            <label for="lbl-email">Email</label>
+            <input 
+            type="email" 
+            id="lbl-email" 
+            name="email" 
+            placeholder="Email...">
+        </div>
+        <div>
+            <label for="lbl-password">Password</label>
+            <input 
+            type="password" 
+            id="lbl-password" 
+            name="password" 
+            placeholder="password...">
+        </div>
+        <div>
+            <label for="lbl-age">Age</label>
+            <input 
+            type="Number" 
+            id="lbl-age" 
+            name="age" 
+            placeholder="age..."
+            min="18"
+            max="50"
+            step="0.1">
+        </div>
+        <div>
+            <label for="lbl-avatar">Avatar</label>
+            <input 
+            type="file" 
+            id="lbl-avatar" 
+            name="avatar" 
+            placeholder="">
+        </div>
+        <div>
+            <label for="lbl-search">Search</label>
+            <input 
+            type="search" 
+            id="lbl-search" 
+            name="search" 
+            placeholder="Từ khóa tìm kiếm">
+        </div>
+        <div>
+            <label for="lbl-birthday">Birthday</label>
+            <input 
+            type="date" 
+            id="lbl-birthday" 
+            name="birthday">
+        </div>
+        <div>
+            <label for="lbl-color">Chọn màu</label>
+            <input 
+            type="color" 
+            id="lbl-color" 
+            name="color" >
+        </div>
+        <div>
+            <label>Giới tính</label>
+            <label>
+                <input type="radio" name="gender" 
+                value="Unknown">Không xác định
+            </label>
+            <label>
+                <input type="radio" name="gender" 
+                value="male">nam
+            </label>
+            <label>
+                <input type="radio" name="gender" 
+                value="female" checked>nữ
+            </label>
+        </div>
+        <div>
+            <label>Bạn biết đến F8 qua đâu</label>
+            <label>
+                <input type="checkbox" name="source" 
+                value="1">Tin đồn
+            </label>
+            <label>
+                <input type="checkbox" name="source" 
+                value="2">Youtube
+            </label>
+            <label>
+                <input type="checkbox" name="source" 
+                value="3" >Facebook
+            </label>
+        </div>
+        <div>
+            <label for="lbl-price">Giá</label>
+            <input 
+            type="range" 
+            id="lbl-price" 
+            name="price" 
+            value="0"
+            step="0.1">
+        </div>
+        <div>
+            <label for="lbl-message">Tin nhắn</label>
+            <textarea name="message" id="lbl-message" placeholder="Tin nhắn..."></textarea>
+        </div>
+
+        <div>
+            <label for="lbl-province" >Tỉnh thành phố</label>
+            <select name="province" id="lbl-province">
+                <option value="">Chọn tỉnh thành phố</option>
+                <option value="hn">Hà Nội</option>
+                <option value="dn" selected>Đà Nẵng</option>
+                <option value="hcm">Hồ Chí Minh</option>
+
+            </select>
+        </div>
+        
+        
+    
+       <!-- <div>
+            <input type="text" name="email" placeholder="Email">
+
+        </div> -->
+
+        <button type="button">submit</button>
+        <button type="button">Button</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+</body>
+</html>
+
+<!--
+    Form
+    - biểu mẫu để gửi dữ liệu
+    - Không được lồng nhau
+    - Trên 1 trang có thể có nhiều form
+   
+    Form có 2 thành phần
+    - Field: Trường nhập liệu
+    - Button: Nút gửi dữ liệu
+
+-->

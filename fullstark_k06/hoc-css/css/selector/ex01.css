@@ -1,0 +1,18 @@
+/*Code CSS External CSS
+        selector1 {
+            property1:value1;
+            property2:value2;
+            property3:value3;
+        }
+        selector2 {
+            property1:value1;
+            property2:value2;
+            property3:value3;
+        }
+        */
+        p {
+            color: red;
+        }
+        h1 {
+            color: green;
+        }

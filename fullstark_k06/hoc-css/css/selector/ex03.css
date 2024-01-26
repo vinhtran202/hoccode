@@ -1,0 +1,44 @@
+/*
+Chọn thành phần đứng sau (vd1): ~ (tất cả những thành phần dứng sau )
+- Ngang hàng
+- Cùng thuộc 1 cha
+
+Chọn thành phần liền kề: +
+- Ngang hàng
+- Cùng thuộc 1 cha
+
+
+*/
+/* vd1
+ul ~ h2 {
+    color: red;
+} */
+
+/* vd2
+ul + h2 {
+    color: aqua;
+} */
+
+/* 
+.box p + h2 + h2 {
+    color: red;
+} */
+
+/* 
+.box h2 + h2 {
+    color: red;
+} */
+
+
+/*
+Chọn gộp selector
+selector1,selector2,selector3,...selectorn {
+}
+*/
+.box p + h2, p + h2 +h2 { 
+    color: red;
+}
+
+
+
+

@@ -1,0 +1,35 @@
+/*
+Thuộc tính background: thiết lập nền cho các element
+- backgruond-color
+- background-image
+- background-size
+- background-repeat
+- background-position
+- background-attachment
+- background: Tổng hợp tất cả các thuộc tính trên
+
+
+Lưu ý:trong color sẽ có giá trị transparent
+*/
+body {
+    height: 2000px;
+}
+.banner {
+    height: 450px; 
+    /* background-color: rgba(137, 255, 3, 0.541);
+    background-image: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat:no-repeat;
+    background-position: 0 bottom;
+    background-size: cover;
+    background-attachment:fixed; */
+    background: rgba(137, 255, 3, 0.541)
+    url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+    no-repeat 0 0 / cover fixed;
+}
+/* .title {
+    background: rgb(255, 137, 216);
+}
+
+.title:hover {
+    background-color: transparent;
+} */

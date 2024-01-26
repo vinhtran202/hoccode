@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.songs {
+    width: 300px;
+    border: 1px solid red;
+    margin: 30px auto;
+    padding: 15px;
+    counter-reset: song-counter;
+
+}
+
+.songs .song-item {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    /* display: list-item;
+    list-style: decimal-leading-zero inside; */
+    counter-increment: song-counter;
+    
+}
+
+.songs .song-item .children {
+    background: pink;
+    padding: 10px;
+    counter-reset: song-children;
+}
+
+.songs .song-item .children p {
+    padding: 5px 0;
+    counter-increment: song-children;
+}
+
+.songs .song-item .children::before {
+    content: counter(song-counter) "." counter(song-children);
+    display: inline-block;
+    background: palevioletred;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.songs .song-item::before {
+    content: "#" counter(song-counter);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: green;
+    float: left;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+

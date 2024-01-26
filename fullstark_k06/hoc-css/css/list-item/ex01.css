@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .box {
+  width: 300px;
+  margin: 30px auto;
+  border: 1px solid red;
+}
+
+.box ul {
+  list-style-position: inside;
+  list-style-type: non;
+} */
+
+/*
+- list-style-position: inside| outside
+- list-style-type: disc | circle | square | decimal | decimal-leading-zero | upper-alpha | lower-alpha | upper-roman | lower-roman
+- list-style-image --> thay biểu tượng bằng hình ảnh---> Không nên dùng ( Không điều chỉnh được kích thước )- --> Thay thế bằng background 
+- ist-style: position | type | image
+
+*/
+
+body {
+    font-family: roboto,sans-serif;
+}
+
+
+.menu {
+    width: 80%;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+.menu ul {
+    list-style-type: none;
+    /* font-size: 0; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu li {
+    /* display: inline-block;
+    font-size: 16px; */
+    width: 150px;
+    height: 40px;
+    background-color: rgb(42, 134, 134);
+    padding-top: 12px;
+    
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background: #1abc9c;
+    border-radius: 50px;
+}

@@ -1,0 +1,33 @@
+/*
+Thuộc tính display: Thay đổi chế độ hiển thị của thẻ html
+- none --> Ẩn thẻ html
+- block --> Hiển thị dạng block
+- inlne --> Hiển thị dạng inline
+- inline-blick --> Hiên thị đạng inline-block
+
+Các giá trị phức tạp
+ -Flex
+ -inline-flex
+ -gird
+ -inline-grid
+ -table
+ -list-item
+
+
+ Ẩn/Hiện 1 element 
+ - Phân biệt ẩn giữ không gian và mất không gian ?
+ - Phân biệt ẩn và làm mờ (Tàng hình)
+*/
+
+
+.box {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 10px 30px;
+}
+
+.content:hover .box {
+    /* display: none;
+    opacity: 0; */
+    visibility: hidden;
+}

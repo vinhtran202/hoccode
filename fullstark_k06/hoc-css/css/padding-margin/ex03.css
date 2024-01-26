@@ -1,0 +1,40 @@
+/*
+1. Cả 2 đều là số dương --> lấy margin lớn hơn
+2. Cả 2 trái dấu --> Cộng margin
+3. Cả 2 đều là số âm --> lấy margin nhỏ hơn
+
+
+Thu hẹp lề thành phần con: 
+- border
+-position: absolute | fixed
+- display: flex | inline-block | table | table-cell | grid
+- float: left | right
+
+
+Giải pháp: chuyển thành padding
+*/
+
+
+/* .block-1 {
+    border: 1px solid red;
+    margin-bottom: 50px;
+}
+
+.block-2 {
+    border: 1px solid green;
+    margin-top: 40px;
+} */
+
+
+.box {
+background: rgb(255, 0, 0);
+color: rgb(217, 255, 0);
+text-align: center;
+/* display: inline-block; */
+/* position: absolute; */
+/* border: 1px solid red; */
+}
+
+.box h1 {
+    padding:30px 0;
+}

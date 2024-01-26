@@ -1,0 +1,23 @@
+.box > .title {
+    color: red;
+}
+.box > div > .title {
+    color: green;
+}
+
+.content h2#large.title {
+    color: aqua;
+}
+
+.content h3#small.title {
+    color: brown;
+}
+
+
+
+/* tìm hiểu trước
++
+~
+,
+attribute selector
+*/

@@ -1,0 +1,82 @@
+/*
+Pseudo Classes: lớp giả ( Trạng thái)
+Cú pháp: selector:ten
+- active
+- hover
+- focus
+- checked
+- disable
+- not
+- first-child
+- last-child
+- first-of-type
+- last-of-type
+- nth-child
+- nth-of-type
+
+*/
+/*
+.title:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.title:active {
+    color: green;
+}
+
+.btn:focus {
+    background: blueviolet;
+}*/
+
+/* .register-form input:focus::placeholder {
+  color: red;
+}
+
+.sub-title:focus {
+  outline: 0;
+  border: 1px dotted red;
+}
+
+.sub-title:active {
+  color: green;
+  font-size: 30px;
+}
+
+.todos input:checked ~ span {
+    color: red;
+}
+
+.todos input:disabled ~ span {
+    color: gray;
+} */
+
+/*
+.products h2:not(.sale) {
+    color: red;
+} */
+
+/*.products h2:first-child {
+    color: aqua;
+}
+
+.products h2:last-child {
+    color: violet;
+}*/
+
+/* .products h2:first-of-type {
+    color: aqua;
+}
+
+.products h2:last-of-type {
+    color: violet;
+} */
+
+/* .products h2:nth-child(3) {
+    color: aqua;
+} */
+
+
+.products h2:nth-of-type(2n) {
+    color: violet;
+}

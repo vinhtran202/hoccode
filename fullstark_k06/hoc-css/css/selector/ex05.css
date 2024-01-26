@@ -1,0 +1,52 @@
+/*
+Pseudo Element: phần tử giả
+Cú pháp: selector : element
+-before
+-affter
+-first-letter
+-first-line
+-selection
+-placeholder
+*/
+
+/*.title::before{
+    content: "a";
+    color: red;
+}
+
+.title::after{
+    content: "b";
+    color: red;
+}*/
+
+.title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: red;
+    margin: 0 auto;
+    translate: -250%;
+} 
+
+/* p::first-line {
+    color: red;
+}
+*/
+
+
+/*p::first-letter {
+    color: red;
+    font-size: 200px;
+}*/
+p::selection {
+    color: pink;
+    background: black;
+}
+
+input::placeholder {
+    color: black;
+}
+input {
+    color: aqua;
+}

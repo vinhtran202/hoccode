@@ -1,0 +1,93 @@
+/*
+float: Thuộc tính trôi các thành phần htmk về bên trái, bên phải thành phần cha của nó
+- none
+- left
+- right
+
+
+Clear: Ngăn tình trạng trôi các thành phần do các thành phần phía trên có sử dụng float 
+- left --> ngăn trôi về bên trái
+- right --> ngăn trôi về bên phải 
+- both --> chặn cả 2 
+
+
+Lưu ý: clear chỉ hoạt động với block
+
+
+
+Kỹ thuật clearfix:
+- Kết hợp tất cả các thuộc tính CSS lại để giải quyết bài toàn chia layout bằng float và clear
+*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/* .row{
+    width: 80%;
+    margin: 30px auto;
+    border: 1px solid red;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-1 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    color: fff;
+    float: left;
+}
+
+.col-2 {
+    width: 150px;
+    height: 120px;
+    background: red;
+    color: #fff;
+    float: left;
+}
+
+.col-3 {
+    width: 80px;
+    height: 80px;
+    background: blue;
+    color: #fff;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.text {
+    background: yellow;
+} */
+
+.box {
+    width: 80%;
+    border: 1px solid red;
+    margin: 30px auto;
+}
+
+.box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    float: left;
+    margin: 15px;
+    shape-outside: circle();
+}

@@ -1,0 +1,26 @@
+/*
+Thuộc tính font-size: thay đổi cỡ chữ
+Các đơn vị trong CSS
+1. Đơn vị tuyệt đối
+- px
+- pt = 1.3px
+2 Đơn vị tương đối
+- em (kế thừa theo thành phần cha) 
+- rem (kế thừa theo thành phần root: html )
+- % (kế thừa theo cha)
+- vh (viewport height )
+- vw (viewport width )
+- fr (grid css)
+
+*/
+html {
+    font-size: 18px;
+}
+
+.wrapper .content {
+    font-size: 20px;
+}
+
+.wrapper .content p{
+    font-size: 2rem;
+}

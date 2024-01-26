@@ -1,0 +1,26 @@
+/*
+Thuộc tính overflow: xử lý nội dung bị tràn
+-visible : giữ nguyên
+-hidden : ẩn phần bị thừa
+-scoll : tạo thanh cuộn ( Lúc nào cũng có thanh cuộn)
+-auto : Tạo thanh cuộn khi có nội dung bị thừa
+
+
+overflow-x : Thiết lập theo trục x (ngang)
+overflow-y : Thiết lập theo trục y (dọc)
+*/
+
+
+.box {
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    /* overflow: scroll; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+.box p {
+    width: 400px;
+}

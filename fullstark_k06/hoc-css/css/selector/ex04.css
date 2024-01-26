@@ -1,0 +1,44 @@
+/*
+Attribute Selector
+-[têm thuộc tính]:chọn thẻ html có thuộc tính là tên thuộc tính
+-[tenthuoctinh  = "giatri"] :chọn thẻ html có thuộc tính là tenthuoctinh và giá trị là giatri
+*/
+/*
+ul li a[target] {
+    color: red;
+} */
+
+/*ul li a[href="https://fullstack.edu.vn"]
+{
+  color: red;
+} */
+
+/*ul li a[href^="https://fullstack.edu.vn"]
+{
+  color: red;   /*Chọn những thằng bắt đầu từ https://fullstack.edu.vn
+}
+*/
+
+/*ul li a[href*="fullstack.edu.vn"]
+{
+  color: red;   /*Chọn những thằng chứa giá trị fullstack.edu.vn
+}
+*/
+/*
+ul li a[href$=".vn"]
+{
+  color: red;  /*Chọn những thằng kết thúc bằng .vn
+}*/
+
+/*Bài Tập: chọn các thẻ html có class bắt đầu bàng title và nằm sau h1 
+
+.content h1 ~ [class^="title"] {
+    color: red; 
+} */
+/*
+Bài tập: chọn tất cả các thẻ html: * 
+Ví dụ: chọn tất cả các thẻ html nằm trong content
+*/
+.content * {
+    color:chartreuse;
+}

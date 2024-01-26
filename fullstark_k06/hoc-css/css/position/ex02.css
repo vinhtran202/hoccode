@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+}
+.overlay {
+    background: #0000004b;
+    position: fixed;
+    inset: 0;
+}
+
+#show:checked + .open-model {
+    display: block;
+}
+ 
+.open-model {
+    background: #0000004b;
+    position: fixed;
+    inset: 0;
+    display:none;
+}
+
+.box {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    /* top: 20px; */
+    left: 300px;
+    padding: 15px;
+    z-index: 999;
+
+}
+
+
+

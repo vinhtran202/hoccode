@@ -1,0 +1,64 @@
+/*
+Thuộc tính border: Thiết lập viền cho element
+- border-width: Chiều rộng
+- border-style: Kiểu: none|solid|dotted|dashed|double
+- border-color: Màu
+- border: width style color
+- border-left:width style color
+- border-right:width style color
+- border-top:width style color
+- border-bottom:width style color
+- border-left-width:color
+- border-right-width:color
+- border-top-width:color
+- border-bottom-width: color
+- border-left-style: style
+- border-right-style: style
+- border-top-style: style
+- border-bottom-style:style
+- border-top-color: color
+- border-bottom-color: color
+- border-left-color: color
+- border-right-color: color
+*/
+
+.box {
+  /* border-width: 2px 4px 6px 8px;
+    border-style: solid dashed dotted double;
+    border-color: red green blue violet; */
+  /* border: 3px dotted red; */
+  /* border-top: 3px solid red;
+  border-right: 3px dotted green;
+  border-bottom: 3px dashed violet;
+  border-left: 3px double orange; */
+  border: 5px solid #ccc;
+  /* border-radius: 10px 50px 70px 140px; */
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 50px;
+}
+
+.box2 {
+  /* width: 0px;
+  height: 0px;
+  border: 200px solid;
+  border-color: transparent transparent orange transparent;
+  border-top: 0; */
+  width: 100px;
+  height: 100px;
+  border: 5px solid orange;
+  border-radius: 50%;
+}
+
+
+
+
+/* 
+width,height
+max-width, max-height
+overflow
+filter, opacity
+Inline: non-replace, replace
+*/

@@ -1,0 +1,44 @@
+/*
+Các thuộc tính định dạng text (Văn Bản )
+ 1 Color: change color document
+    - syntax: color: valua_color
+    - Color name (English)
+    - color code: hexa
+    - color code : grb
+    - color code : hsl
+note: Trong các thuộc tính css, luôn có 2 giá trị kế thừa 
+-initial --> khôi phục giá trị mặc định ban đầu của trình duyệt
+-inherit --> kế thừa giá trị của thẻ cha
+Color opacity
+*/
+
+body {
+    color: green;
+}
+.title {
+    color: red;
+}
+
+.title::before {
+    content: "F8";
+    color: blueviolet;
+}
+
+.title::before:hover{
+    color: currentColor;
+}
+.title:hover {
+    color: initial;
+}
+
+.sub-title {
+    color: rgba(255, 0, 0, 0.288);
+}
+
+.sub-title:hover{
+    color: inherit;
+}
+
+.content {
+    color: #00cc02;
+}

@@ -1,0 +1,29 @@
+/*
+ text-align: căn chỉnh văn bản theo chiều ngang 
+ - left
+ - center
+ - right
+ - justify : căn đều 2 bên
+Lưu ý: chỉ áp dụng thuộc tính này cho các thẻ block
+*/
+
+
+.content {
+    /* word-wrap: break-word;
+    word-break: break-all; */
+    text-align: left;
+    text-align-last: right;
+}
+
+.content p {
+    text-indent: 10px;
+    text-align: justify;
+}
+
+.link {
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+}

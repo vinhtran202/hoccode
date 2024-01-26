@@ -1,0 +1,23 @@
+* { /*reset CSS*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+}
+
+/*
+box-sizing
+- content-box ---> Mặc định ( kích thước gốc dựa vào content)
+- border-box ( kích thước gốc tính cả border)
+
+*/
+
+
+.box {
+    border: 5px solid red;
+    width: 200px;
+    padding: 15px;
+    margin: 30px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,86 @@
+/*
+line-height: giãn dòng, thiết lập chiều cao cho dòng
+
+Thuộc tính Font-family: thiết lập font chữ 
+syntax : font-family: font 1, font 2, fontn
+*/
+
+/* p {
+    font-size: 30px;
+    line-height: 1.5;
+} */
+/*
+at-rules
+*/
+
+/*
+Họ font không chân: sans-serif
+Họ font có chân: serif
+
+Độ dày: font-weight : normal |100|200|300|400|500|600|700|800|900|bold
+Nghiêng: font-style : normal |italic
+*/
+
+/*
+Thuộc tính Text-decoration
+
+Thuộc tính text-transform: thay đổi chữ thường chữ hoa
+    + none
+    + lowercase
+    + uppercase
+    + capitalize
+
+
+
+letter-spacing : Tạo khoảng cách giữa các ký tự
+word-spacing: tạo khoảng cascg giữa các từ
+
+
+--> chấp nhận giá trị âm
+*/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+@font-face {
+  font-family: "lato";
+  src: url(../text/font/Lato-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url(../text/font/Lato-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "lato";
+  src: url(../text/font/Lato-Italic.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url(../text/font/Lato-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url(../text/font/Lato-BoldItalic.ttf);
+  font-weight: 700;
+}
+
+p {
+  /* font-family: lato, sans-serif; */
+  font-family: "Styles";
+  font-weight: 400;
+  font-style: normal;
+  /* text-decoration: overline underline line-through; */
+  /* letter-spacing: 5px; */
+  word-spacing: 10px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+}

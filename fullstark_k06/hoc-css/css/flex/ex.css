@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box .image img {
+    width: 120px;
+    max-height: ;
+    margin: 10px;
+}
+
+.box {
+    margin: 30px auto;
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: a;
+
+}
+
