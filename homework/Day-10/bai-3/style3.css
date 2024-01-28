@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #313642;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+}
+.letter-body {
+  position: relative;
+  min-width: 200px;
+  min-height: 100px;
+  transition: all 0.6s ease-in-out;
+}
+
+.open {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #cf4a43;
+  z-index: 4;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 70%);
+  transform-origin: 50% 0;
+  transition-property: transform, z-index;
+  transition-duration: 0.8s, 0s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0.2s;
+}
+
+.letter-body:hover .open {
+  transform: rotateX(200deg);
+  z-index: 1;
+}
+
+.font-left {
+  position: absolute;
+  background: #e3504b;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+}
+
+.font-right {
+  position: absolute;
+  background: #e85f57;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  clip-path: polygon(100% 50%, 0% 0%, 0% 100%);
+}
+
+.back {
+  position: absolute;
+  background-color: #cf4a43;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.letter-card {
+  position: absolute;
+  padding: 20px;
+  z-index: 1;
+  width: 80%;
+  height: 50%;
+  background-color: white;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  transition-property: transform, height;
+  transition-duration: 0.4s, 0.6s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0.4s, 0s;
+  overflow: hidden;
+}
+
+.letter-body:hover .letter-card {
+  transform: translateY(-50%);
+  height: 100%;
+}
+
+.head-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  max-height: 15px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.cross {
+  width: 7px;
+  height: 29px;
+  rotate: z 35deg;
+  background: #e3504b;
+}
+
+.title {
+  background-color: #87a3b2;
+  height: 4px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.line {
+  background-color: #87a3b2;
+  height: 4px;
+  width: 100%;
+  margin-bottom: 10px;
+}

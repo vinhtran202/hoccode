@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #eee;
+    font-family: arial;
+  }
+  
+  .slide-show {
+    width: 630px;
+    margin: 100px auto;
+    min-height: 300px;
+  }
+  
+  .list-item {
+    position: relative;
+    font-size: 0;
+    text-align: left;
+    color: #666;
+  }
+  
+  .list-item > input {
+    position: absolute;
+    display: none;
+  }
+  
+  .list-item > label {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 1px;
+    padding-top: 0;
+    padding-left: 0;
+    font-size: 13px;
+    line-height: 45px;
+    cursor: pointer;
+  }
+  
+  .list-item > label span {
+    display: block;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  .list-item > label span span {
+    padding: 0 14px;
+    background: transparent;
+    transition: background 0.3s, color 0.4s;
+    -o-transition: background 0.3s, color 0.4s;
+    -ms-transition: background 0.3s, color 0.4s;
+    -moz-transition: background 0.3s, color 0.4s;
+    -webkit-transition: background 0.3s, color 0.4s;
+  }
+  
+  .list-item > label:hover span span {
+    background: #3498db;
+    color: #fff;
+  }
+  
+  .list-item > input:checked + label span span {
+    background: #3498db;
+    color: #fff;
+  }
+  
+  .list-item > ul {
+    list-style: none;
+    position: relative;
+    display: block;
+    font-size: 13px;
+  }
+  
+  .list-item > ul > li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 626px;
+    overflow: auto;
+    padding: 20px 25px 25px;
+    background: rgba(255, 255, 255, 0.9);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    opacity: 0;
+    -o-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
+    -o-transition: opacity 0.8s, -o-transform 0.8s;
+    -ms-transition: opacity 0.8s, -ms-transform 0.8s;
+    -moz-transition: opacity 0.8s, -moz-transform 0.8s;
+    -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
+  }
+  
+  .list-item > .simple:checked ~ ul > .simple,
+  .list-item > .algoritmo:checked ~ ul > .algoritmo,
+  .list-item > .barra:checked ~ ul > .barra,
+  .list-item > .captcha:checked ~ ul > .captcha {
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+  }
+  
+  .content {
+    width: 600px;
+    position: relative;
+    line-height: 20px;
+  }
+  
+  .animation > ul {
+    perspective: 2000px;
+    -o-perspective: 2000px;
+    -ms-perspective: 2000px;
+    -moz-perspective: 2000px;
+    -webkit-perspective: 2000px;
+    perspective-origin: 50% 50%;
+    -o-perspective-origin: 50% 50%;
+    -ms-perspective-origin: 50% 50%;
+    -moz-perspective-origin: 50% 50%;
+    -webkit-perspective-origin: 50% 50%;
+  }
+  
+  .animation > ul > li {
+    -o-transform: rotateX(-90deg);
+    -ms-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    -webkit-transform: rotateX(-90deg);
+  }
+  
+  .animation > .simple:checked ~ ul > .simple,
+  .animation > .algoritmo:checked ~ ul > .algoritmo,
+  .animation > .barra:checked ~ ul > .barra,
+  .animation > .captcha:checked ~ ul > .captcha {
+    -o-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -o-transition-delay: 0.2s;
+    -ms-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+  }
+  
