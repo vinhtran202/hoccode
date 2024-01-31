@@ -99,6 +99,7 @@ header {
     border-radius: 99px;
     box-shadow: rgba(100, 100, 111, 0.05) 0px 0px 10px 0px;
     height: 38px;
+    position: relative;
 }
 
 .nav-search .search li {
@@ -124,6 +125,27 @@ header {
     overflow: hidden;
     font-size: 18px;
     margin: 0px 10px;
+}
+
+.nav-card::after {
+    content: '2';
+    position: absolute;
+    background: #F54b4b;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0.005em;
+    color: #FFFDFD;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -6px 9px 24px -6px rgba(238, 67, 67, 0.68);
+    top: -20px;
+    right: 0px;
+
 }
 
 /* end nav  */
@@ -359,8 +381,8 @@ header {
 }
 
 .service-hover {
-    width: 300px;
-    height: 330px;
+    width: 310px;
+    height: 350px;
     background: #fe6a6a;
     position: absolute;
     top: 0;
@@ -370,6 +392,7 @@ header {
     border-radius: 12px;
     z-index: 0;
     opacity: 0;
+    transition: all 0 ease 0;
 }
 
 .service-hover:hover {
