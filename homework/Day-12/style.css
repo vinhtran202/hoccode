@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+@media screen and (min-width: 576px) {
+  .ladi-info {
+    top: 20px;
+    text-align: center;
+    margin-top: 32px;
+  }
+
+  .ladi-info .logo {
+    margin-bottom: 15px;
+  }
+
+  .ladi-info h1 {
+    margin-top: -10px;
+  }
+
+  .ladi-info p {
+    display: none;
+  }
+
+  .switch .switch-btn {
+    margin-top: -20px;
+  }
+
+  .ladi-form {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+  }
+
+  header .circle {
+    display: none;
+  }
+
+  .rocket {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header .circle {
+    display: none;
+  }
+
+  .ladi-info p {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .text {
+    margin-bottom: 90px;
+  }
+
+  .rocket {
+    width: 160px;
+    height: 156px;
+    position: absolute;
+    top: -60px;
+    left: -45px;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header .circle {
+    width: 1228px; /*614 */
+    height: 1512px; /*216*/
+    background: white;
+    position: absolute;
+    background-image: url(./bai-tap/img/dot-texture.png);
+    border-radius: 48%;
+    right: -714px;
+    top: -216px;
+    display: block;
+    z-index: 1;
+  }
+
+  .ladi-form {
+    width: 484px;
+    height: 625px;
+    padding: 64px;
+    background: white;
+    z-index: 2;
+  }
+
+  .rocket {
+    width: 160px;
+    height: 156px;
+    position: absolute;
+    top: -60px;
+    left: -45px;
+    display: block;
+  }
+}
+
+
+body {
+    font-family: "Rajdhani", sans-serif;
+    background: url(./bai-tap/img/landing-background.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+/* info */
+
+p,
+h1,
+h2 {
+  color: white;
+}
+
+p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 104px;
+  font-weight: 900;
+  line-height: 104px;
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 104px;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.text {
+  width: 384px;
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.switch .switch-btn {
+  width: 360px;
+  display: flex;
+  border-radius: 15px;
+  border: 1px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.switch button {
+  width: 180px;
+  height: 54px;
+  border: none;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+  background: transparent;
+}
+
+.switch button:first-child {
+  color: white;
+}
+
+.switch button:last-child {
+  border-left: 1px solid #ccc;
+  background-color: white;
+  color: black;
+}
+
+/* form */
+
+.ladi-form {
+  width: 484px;
+  height: 625px;
+  padding: 64px;
+  background: white;
+  color: black;
+  position: relative;
+  border-radius: 12px;
+}
+
+.ladi-form p,
+.ladi-form h2 {
+  color: black;
+}
+
+.ladi-form a {
+  color: gray;
+}
+
+.title-2 h2 {
+  width: 356px;
+  height: 40px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 76px;
+}
+
+form {
+  width: 356px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.form-register .check {
+  width: 356px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 29px;
+  align-items: baseline;
+}
+
+.form-register .check:nth-child(2) {
+  font-size: 200;
+}
+
+form input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  border: 1px solid #dedeea;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.inputdata input {
+  width: 356px;
+  height: 54px;
+  border: 1px solid #dedeea;
+  border-radius: 12px;
+  outline: none;
+  font-size: inherit;
+  color: #202124;
+  margin: ;
+}
+
+.form-group label {
+  position: absolute;
+  padding: 0px 5px;
+  left: 5px;
+  top: 50%;
+  background: #fff;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-group input:focus {
+  border: 2px solid #1a73e8;
+}
+
+.form-group input:focus + label,
+.form-group input:valid + label {
+  top: 0px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1a73e8;
+}
+
+.big-button {
+  margin-bottom: 40px;
+}
+.big-button button {
+  width: 356px;
+  height: 54px;
+  background: #615dfa;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.icon .icon-social {
+  margin-left: 12px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 15px;
+  width: 40px;
+  height: 40px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+.icon i {
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 12px;
+  color: white;
+}
+
+.icon-social:first-child {
+  background-color: #3763d2;
+}
+.icon-social:nth-child(2) {
+  background-color: #1abcff;
+}
+.icon-social:nth-child(3) {
+  background-color: #7d5bfa;
+}
+.icon-social:last-child {
+  background-color: #fd434f;
+}
+
+.sub-title {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.sub-title p {
+  position: absolute;
+  width: 250px;
+  background: white;
+  top: 458px;
+  left: 120px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+hr {
+  margin-bottom: 30px;
+}
