@@ -1,0 +1,58 @@
+/* moblie */
+@media (max-width: 740px) {
+  /* sidebar */
+  .sidebar {
+    display: none;
+  }
+
+  /* <!-- navbar --> */
+  header .navbar .search img {
+    display: none
+  }
+
+  header .navbar .menu-bar {
+    margin-right: 200px;
+  }
+
+  header .navbar .menu-bar ul li {
+    margin-left: 14px;
+  }
+
+  header .navbar .menu-bar {
+
+  }
+
+    /* product */
+   
+
+  .product .row {
+    display: block;
+    margin: 0 50px;
+  }
+
+  .product .big-slogan:nth-child(2),
+  .product .big-model:nth-child(1) {
+    margin-top: 22px;
+  }
+
+  .three,
+  .four {
+    margin-left: 0px;
+  }
+
+  .product .big-model:nth-child(2) {
+  }
+}
+/* tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+  .sidebar {
+    display: none;
+  }
+}
+/* PC */
+@media (min-width: 1024px) {
+  .sidebar {
+    display: block;
+  }
+}
