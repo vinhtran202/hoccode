@@ -1,0 +1,34 @@
+<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon - Ethereum">
+<g clip-path="url(#clip0_1_146)">
+<rect x="0.927185" y="0.651474" width="32" height="32" rx="16" fill="url(#paint0_linear_1_146)"/>
+<g id="Symbol" filter="url(#filter0_d_1_146)">
+<path id="Vector 6 " d="M10.7051 18.1391L16.7446 26.7921V21.8125L10.7051 18.1391Z" fill="white"/>
+<path id="Vector 5 " d="M16.744 26.8738L22.7045 18.1392L16.744 21.8534V26.8738Z" fill="#E5FEDD"/>
+<path id="Vector 4 " d="M16.705 15.5597V20.5229L20.305 17.7094L16.705 15.5597Z" fill="#E5FEDD"/>
+<path id="Vector 3 " d="M16.705 6.87348V14.2204L10.705 17.0775L16.705 6.87348Z" fill="white"/>
+<path id="Vector 2 " d="M22.7053 16.996L16.7053 14.2205V6.87354L22.7053 16.996Z" fill="#E5FEDD"/>
+<path id="Vector 1 " d="M13.1049 17.7726L16.7049 20.5229L16.6814 15.5597L13.1049 17.7726Z" fill="white"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_146" x="6.70502" y="3.87348" width="24.0002" height="32.0003" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="2" dy="3"/>
+<feGaussianBlur stdDeviation="3"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.172549 0 0 0 0 0.360784 0 0 0 0 0.14902 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_146"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_146" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_1_146" x1="16.9272" y1="2.65147" x2="35.6952" y2="36.7816" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1CAC70"/>
+<stop offset="1" stop-color="#EDDC46"/>
+</linearGradient>
+<clipPath id="clip0_1_146">
+<rect x="0.927185" y="0.651474" width="32" height="32" rx="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

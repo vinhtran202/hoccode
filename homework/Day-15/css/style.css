@@ -1,0 +1,725 @@
+body {
+  width: 1920px;
+  height: 1170px;
+  background: #0b0d20;
+}
+body .navbar {
+  width: 1340px;
+  height: 61px;
+  display: flex;
+  background: #0b0d20;
+  color: white;
+  margin-left: 104px;
+}
+body .navbar .search {
+  width: 449px;
+  height: 56px;
+  border-radius: 16px;
+  border: 2px solid #212551;
+  background: linear-gradient(162deg, #171a40 22.61%, rgba(23, 26, 64, 0) 118.29%);
+  margin-right: 45px;
+}
+body .navbar .search img {
+  margin-left: 20px;
+  margin-top: 16px;
+}
+body .navbar .search input {
+  border: none;
+  background: transparent;
+  width: 228px;
+  height: 20px;
+  margin-left: 27px;
+}
+body .navbar .icon-header {
+  width: 494px;
+  height: 56px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+body .navbar .icon-header .wallet {
+  width: 120px;
+  height: 56px;
+  border-radius: 16px;
+  border: 2px solid #212551;
+  background: linear-gradient(162deg, #171a40 22.61%, rgba(23, 26, 64, 0) 118.29%);
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin-left: 16px;
+}
+body .navbar .icon-header .wallet img {
+  margin-top: 14px;
+}
+body .navbar .icon-header .rings {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  border: 2px solid #212551;
+  background: linear-gradient(162deg, #171a40 22.61%, rgba(23, 26, 64, 0) 118.29%);
+  margin-left: 16px;
+}
+body .navbar .icon-header .rings img {
+  margin-top: 10px;
+}
+body .navbar .icon-header .btn-1 {
+  width: 96px;
+  height: 56px;
+  border-radius: 16px;
+  border: 2px solid #212551;
+  background: linear-gradient(162deg, #171a40 22.61%, rgba(23, 26, 64, 0) 118.29%);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 16px;
+}
+body .navbar .icon-header .btn-1 span {
+  display: block;
+  margin-top: 10px;
+}
+body .navbar .icon-header .btn-2 {
+  width: 174px;
+  height: 56px;
+  border: 2px solid #212551;
+  border-radius: 12px;
+  background: linear-gradient(162deg, #171a40 22.61%, rgba(23, 26, 64, 0) 118.29%);
+  box-shadow: 0px 13px 17px 0px rgba(156, 211, 118, 0.2);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 22px;
+  margin-left: 16px;
+}
+body .navbar .icon-header .btn-2 span {
+  display: block;
+  margin-top: 10px;
+}
+body .navbar hr {
+  width: 2px;
+  height: 56px;
+  border-radius: 100px;
+  background: linear-gradient(90deg, #9796ea 0%, #f3c9d4 100%);
+  margin-right: 32px;
+}
+body .navbar .infor {
+  width: 309px;
+  height: 56px;
+  display: flex;
+}
+body .navbar .infor .infor-name span {
+  display: block;
+  width: 100%;
+  font-family: "Quicksand";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+body .navbar .infor .infor-name span:nth-child(2) {
+  color: rgba(157, 197, 248, 0.3490196078);
+}
+body .navbar .infor .infor-icon {
+  margin-left: 85px;
+  width: 24px;
+  height: 24px;
+  margin-top: 12px;
+}
+body .side-navigation {
+  width: 72px;
+  height: 1081px;
+  position: absolute;
+  border-radius: 16px;
+  border: 2px solid #212551;
+  background: linear-gradient(162deg, #171a40 22.61%, rgba(23, 26, 64, 0) 118.29%);
+}
+body .side-navigation .logo img {
+  margin: 12px 15px;
+}
+body .side-navigation .menu ul li {
+  list-style-type: none;
+  margin-left: 22px;
+  margin-bottom: 54px;
+}
+body .side-navigation .menu ul li img {
+  width: 24px;
+  height: 24px;
+}
+body .side-navigation .menu hr {
+  margin-bottom: 54px;
+}
+body .side-navigation .menu .logout-icon {
+  margin-left: 22px;
+  margin-top: 241px;
+}
+body main {
+  margin-left: 104px;
+  margin-top: 46px;
+  width: 1340px;
+  height: auto;
+}
+body main .live-auction .content {
+  display: flex;
+  justify-content: space-between;
+}
+body main .live-auction .content .title {
+  color: #e3e4e8;
+  font-family: "Quicksand";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body main .live-auction .content .sub-title {
+  color: #86e7d4;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+body main .live-auction .content .sub-title img {
+  rotate: -90deg;
+  margin-left: 16px;
+}
+body main .live-auction .auction-1,
+body main .live-auction .auction-2 {
+  width: 650px;
+  height: 305px;
+  border-radius: 24px;
+  position: relative;
+  display: inline-flex;
+}
+body main .live-auction .auction-1 .box-aution,
+body main .live-auction .auction-2 .box-aution {
+  width: 307px;
+  height: 129px;
+  border-radius: 12px;
+  border: 1px solid #70a3f3;
+  background: #000;
+  backdrop-filter: blur(6px);
+  position: absolute;
+  left: 24px;
+  bottom: 14px;
+}
+body main .live-auction .auction-1 .box-aution .big-title,
+body main .live-auction .auction-2 .box-aution .big-title {
+  display: flex;
+  height: 45px;
+}
+body main .live-auction .auction-1 .box-aution .big-title img,
+body main .live-auction .auction-2 .box-aution .big-title img {
+  width: 45px;
+  height: 45px;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+body main .live-auction .auction-1 .box-aution .big-title span,
+body main .live-auction .auction-2 .box-aution .big-title span {
+  color: #fff;
+  font-family: "Quicksand";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  margin-top: 15px;
+}
+body main .live-auction .auction-1 .box-aution .big-title span:nth-child(2),
+body main .live-auction .auction-2 .box-aution .big-title span:nth-child(2) {
+  margin-right: 32px;
+}
+body main .live-auction .auction-1 .box-aution .small-title,
+body main .live-auction .auction-2 .box-aution .small-title {
+  display: flex;
+}
+body main .live-auction .auction-1 .box-aution .small-title span,
+body main .live-auction .auction-2 .box-aution .small-title span {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+body main .live-auction .auction-1 .box-aution .small-title span:nth-child(1),
+body main .live-auction .auction-2 .box-aution .small-title span:nth-child(1) {
+  margin-left: 50px;
+  margin-right: 70px;
+  margin-bottom: 18px;
+}
+body main .live-auction .auction-1 .box-aution button,
+body main .live-auction .auction-2 .box-aution button {
+  width: 259px;
+  height: 36px;
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 2px solid #52b3d0;
+  background: #171a40;
+  color: white;
+  font-family: "Quicksand";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin-left: 24px;
+}
+body main .live-auction .auction-1 {
+  background: url(../img/image\ 341.png);
+  margin-right: 10px;
+}
+body main .live-auction .auction-2 {
+  background: url(../img/unsplash_-SmCKTIcH5E.png);
+}
+body main .top-seller {
+  width: 1320px;
+  height: 136px;
+}
+body main .top-seller .title {
+  color: var(--Colors-Emerald-300, #8ee4ba);
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 44px;
+  margin-bottom: 24px;
+}
+body main .top-seller .seller {
+  width: 1320px;
+  height: 100px;
+  overflow: auto;
+  display: flex;
+}
+body main .top-seller .seller .seller-info {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+}
+body main .top-seller .seller .seller-info .avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 12px;
+}
+body main .top-seller .seller .seller-info .details .name {
+  display: flex;
+  align-items: center;
+}
+body main .top-seller .seller .seller-info .details .name span {
+  color: #fafafb;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+body main .top-seller .seller .seller-info .details .name img {
+  display: inline-block;
+}
+body main .top-seller .seller .seller-info .details .cash {
+  color: var(--Colors-Teal-300, #86e7d4);
+  font-family: "Quicksand";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+body main .hot-bids .title {
+  color: #b6f1fa;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+body main .hot-bids .card-group {
+  display: flex;
+}
+body main .hot-bids .card-group .card {
+  width: 223px;
+  height: 300px;
+  position: relative;
+}
+body main .hot-bids .card-group .card .countdown {
+  position: relative;
+}
+body main .hot-bids .card-group .card .countdown img {
+  position: absolute;
+  z-index: -1;
+  width: 156px;
+  height: 57px;
+  left: -25px;
+}
+body main .hot-bids .card-group .card .like {
+  width: 156px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+body main .hot-bids .card-group .card .like span {
+  color: #fafafb;
+  text-align: right;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+body main .hot-bids .card-group .card .like .like-group {
+  display: flex;
+}
+body main .hot-bids .card-group .card .like .like-group span {
+  margin-left: 70px;
+}
+body main .hot-bids .card-group .card .image {
+  z-index: 4;
+  border-radius: 16px;
+  overflow: hidden;
+}
+body main .hot-bids .card-group .card .name {
+  color: #fafafb;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+body main .hot-bids .card-group .card .price {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  background: linear-gradient(90deg, #aeb6e1 0%, #a4fae8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body main .hot-bids .card-group .card .history-bid {
+  position: relative;
+  margin-top: -28px;
+  margin-left: 120px;
+}
+body main .hot-bids .card-group .card .history-bid img {
+  position: absolute;
+}
+body main .hot-bids .card-group .card .history-bid img:nth-child(2) {
+  left: 20px;
+}
+body main .hot-bids .card-group .card .history-bid img:nth-child(3) {
+  left: 40px;
+}
+body main .nav .nav-overlay {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+body main .nav .toggle-aside {
+  width: 368px;
+  max-width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(162deg, #171a40 22.61%, rgba(23, 26, 64, 0) 118.29%);
+  transform: translateX(100%);
+  transition: all 0.2s ease-in-out;
+}
+body main .nav .toggle-aside .title {
+  margin-top: 5px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 28px;
+}
+body main .nav .toggle-aside .title span {
+  color: #fff;
+  font-family: "Quicksand";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+body main .nav .toggle-aside .avatar {
+  width: 120px;
+  height: 120px;
+  margin-left: 124px;
+  margin-right: 124px;
+  border: 2px solid #3461ff;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+body main .nav .toggle-aside .avatar img {
+  width: 104px;
+  height: 104px;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+body main .nav .toggle-aside .name {
+  margin-left: 130px;
+  margin-bottom: 16px;
+}
+body main .nav .toggle-aside .name span {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+body main .nav .toggle-aside .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+body main .nav .toggle-aside .content .box {
+  position: relative;
+  width: 68px;
+  height: 52px;
+  border: 2px solid #3f60f6;
+  border-radius: 16px;
+  background: #171a40;
+}
+body main .nav .toggle-aside .content .box span {
+  position: absolute;
+  color: #fff;
+  font-family: "Quicksand";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  top: 12px;
+  right: 18px;
+}
+body main .nav .toggle-aside .small-text {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 11px;
+  margin-bottom: 16px;
+}
+body main .nav .toggle-aside .small-text span {
+  color: var(--Greys-Blue-Grey-100, #fff);
+  font-family: "Quicksand";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+body main .nav .toggle-aside .sub-title {
+  margin-left: 24px;
+  margin-bottom: 8px;
+}
+body main .nav .toggle-aside .sub-title span {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+body main .nav .toggle-aside .big-box {
+  width: 320px;
+  height: 64px;
+  border-radius: 16px;
+  border: 2px solid #4a5094;
+  background: #171a40;
+  backdrop-filter: blur(5px);
+  margin-left: 24px;
+}
+body main .nav .toggle-aside .big-box .icon {
+  display: flex;
+  align-items: center;
+}
+body main .nav .toggle-aside .big-box .icon img {
+  margin: 12px;
+}
+body main .nav .toggle-aside .big-box .icon img:nth-child(4) {
+  rotate: 270deg;
+}
+body main .nav .toggle-aside .big-box .icon span {
+  color: #fff;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+body main .nav .toggle-aside .big-box .icon span:nth-child(3) {
+  color: #fff;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-left: 70px;
+}
+body main .nav .toggle-aside .graph {
+  width: 320px;
+  height: 184px;
+  border-radius: 16px;
+  border: 2px solid #4a5094;
+  background: #171a40;
+  backdrop-filter: blur(5px);
+  margin-left: 24px;
+  position: relative;
+}
+body main .nav .toggle-aside .graph .number {
+  position: absolute;
+}
+body main .nav .toggle-aside .graph .number ul li {
+  color: #b2bae9;
+  font-family: "Quicksand";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  list-style-type: none;
+  margin-bottom: 16px;
+  margin-left: 12px;
+}
+body main .nav .toggle-aside .graph .number ul li:nth-child(1) {
+  margin-top: 28px;
+}
+body main .nav .toggle-aside .graph .month {
+  position: absolute;
+}
+body main .nav .toggle-aside .graph .month ul {
+  display: flex;
+}
+body main .nav .toggle-aside .graph .month ul li {
+  color: #b2bae9;
+  font-family: "Quicksand";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  list-style-type: none;
+  margin-left: 22px;
+  margin-top: 155px;
+}
+body main .nav .toggle-aside .graph .month ul li:nth-child(1) {
+  margin-left: 40px;
+}
+body main .nav .toggle-aside .graph .line .line-graph {
+  width: 259px;
+  height: 2px;
+  background: #3e4790;
+  margin-top: 36px;
+  margin-left: 37px;
+}
+body main .nav .toggle-aside .graph .image {
+  position: absolute;
+  top: 26px;
+  left: 46px;
+}
+body main .nav .toggle-aside .toggle-box {
+  width: 320px;
+  height: 88px;
+  border-radius: 16px;
+  background: #23275c;
+  margin-left: 24px;
+  margin-bottom: 13px;
+  display: flex;
+  position: relative;
+}
+body main .nav .toggle-aside .toggle-box .toggle-box-text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.28px;
+}
+body main .nav .toggle-aside .toggle-box .toggle-box-text span:nth-child(1) {
+  position: absolute;
+  top: 21px;
+  left: 95px;
+}
+body main .nav .toggle-aside .toggle-box .toggle-box-text span:nth-child(2) {
+  position: absolute;
+  bottom: 21px;
+  left: 95px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+  background: linear-gradient(89deg, #bac1ff -0.98%, #63fefe 54.08%, #ff3eec 112.69%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body main .nav .toggle-aside .toggle-box .price span:nth-child(1) {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+  background: linear-gradient(89deg, #bac1ff -0.98%, #63fefe 54.08%, #ff3eec 112.69%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+body main .nav .toggle-aside .toggle-box .price span:nth-child(2) {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.28px;
+  position: absolute;
+  top: 28px;
+  right: 12px;
+}
+body main .nav .toggle-aside .toggle-box .time span {
+  color: #9dc4f8;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.22px;
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+body main .nav .nav__input:checked ~ .nav-overlay {
+  display: block;
+}
+body main .nav .nav__input:checked ~ .toggle-aside {
+  transform: translateX(0%);
+}
+
+/*# sourceMappingURL=style.css.map */

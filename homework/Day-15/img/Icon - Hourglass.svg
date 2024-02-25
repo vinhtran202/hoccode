@@ -1,0 +1,23 @@
+<svg width="46" height="54" viewBox="0 0 46 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon - Hourglass">
+<g id="Vector" filter="url(#filter0_d_1_227)">
+<path d="M17 4V10H17.01L17 10.01L21 14L17 18L17.01 18.01H17V24H29V18.01H28.99L29 18L25 14L29 10.01L28.99 10H29V4H17ZM27 18.5V22H19V18.5L23 14.5L27 18.5ZM23 13.5L19 9.5V6H27V9.5L23 13.5Z" fill="url(#paint0_linear_1_227)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_227" x="0" y="0" width="46" height="54" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="13"/>
+<feGaussianBlur stdDeviation="8.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.611765 0 0 0 0 0.827451 0 0 0 0 0.462745 0 0 0 0.6 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_227"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_227" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_1_227" x1="16" y1="22.5" x2="32" y2="1" gradientUnits="userSpaceOnUse">
+<stop stop-color="#72C6C2"/>
+<stop offset="1" stop-color="#BEDD9D"/>
+</linearGradient>
+</defs>
+</svg>
