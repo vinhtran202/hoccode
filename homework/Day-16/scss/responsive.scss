@@ -1,0 +1,242 @@
+@use "./variable" as v;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+// /* moblie */
+@media (max-width: 740px) {
+  header {
+    .container {
+      .row {
+        .navbar {
+            .logo {
+
+            }
+            .over-lay {
+                background: rgba(2, 2, 2, 0.322);
+                width: 100%;
+                height: auto;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 1;
+                display: none;
+                animation: fadeIn 0.2s linear;
+              }
+          svg {
+            display: block;
+          }
+          .nav-menu {
+            .nav-input:checked ~ .over-lay,
+             
+             {
+                display: block;
+            }
+            .nav-input:checked ~ .menu-res  {
+              transform: translateX(0%);
+            }
+            .menu-bar {
+              .icon-bar {
+                display: block;
+              }
+              .menu-res {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                background-color: v.$colorBg-green-100;
+                width: 300px;
+                transform: translateX(100%);
+                z-index: 4;
+                transition: all 0.3s ease-in-out;
+                ul {
+                  display: block;
+                  li {
+                    margin-top: 50px;
+                    a {
+                      font-size: 22px;
+                    }
+                    a:focus {
+                      color: #46B20F;
+                      border-bottom:2px solid #46B20F;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        main {
+          display: block;
+          position: relative;
+          margin: 0px auto;
+          .content-section {
+            width: 514px;
+            position: absolute;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.6);
+            z-index: 4;
+            border-radius: 5px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          }
+        }
+        .advertise {
+          .card {
+            margin-left: 500px;
+            display: block;
+            margin-top: 100px;
+            .card-1 {
+              width: 394.167px;
+              height: 437.5px;
+              margin: 0px auto;
+            }
+            .card-2 {
+              width: 442.5px;
+              height: 492.5px;
+              margin: 10px auto;
+            }
+          }
+        }
+        .circle-1 {
+          margin-left: 200px;
+        }
+        .circle-2 {
+          margin-right: 70px;
+        }
+        .cardpro-ducts {
+            h2 {
+              margin-top: 150px;
+            }
+          .card {
+            margin-left: 700px;
+            display: block;
+            .row {
+              display: block;
+              .product {
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                margin-bottom: 10px;
+                .circle-1 {
+                  margin-left: -10px;
+                  margin-top: 50px;
+                }
+                .circle-2 {
+                  margin-top: 100px;
+                }
+
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+// /* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  header {
+    .container {
+      .row {
+        .navbar {
+            .logo {
+
+            }
+            .over-lay {
+                background: rgba(2, 2, 2, 0.322);
+                width: 100%;
+                height: auto;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 1;
+                display: none;
+                animation: fadeIn 0.2s linear;
+              }
+          svg {
+            display: block;
+          }
+          .nav-menu {
+            .nav-input:checked ~ .over-lay,
+             
+             {
+                display: block;
+            }
+            .nav-input:checked ~ .menu-res  {
+              transform: translateX(0%);
+            }
+            .menu-bar {
+              .icon-bar {
+                display: block;
+              }
+              .menu-res {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                background-color: v.$colorBg-green-100;
+                width: 300px;
+                transform: translateX(100%);
+                z-index: 4;
+                transition: all 0.3s ease-in-out;
+                ul {
+                  display: block;
+                  li {
+                    margin-top: 50px;
+                    a {
+                      font-size: 22px;
+                    }
+                    a:focus {
+                      color: #46B20F;
+                      border-bottom:2px solid #46B20F;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// /* PC */
+@media (min-width: 1024px) {
+  header {
+    .container {
+      .row {
+        .navbar {
+          svg {
+            display: none;
+          }
+          .nav-menu {
+            .menu-bar {
+              ul {
+                li {
+                }
+              }
+              .icon-bar {
+                display: none;
+              }
+            }
+          }
+        }
+        
+        .card {
+          display: flex;
+          margin-top: 200px;
+          .row {
+            display: flex; }}
+      }
+    }
+  }
+}
