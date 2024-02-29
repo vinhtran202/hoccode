@@ -32,6 +32,9 @@
   }
 }
 @media (max-width: 740px) {
+  header .container .row .navbar {
+    margin-left: 200px;
+  }
   header .container .row .navbar .over-lay {
     background: rgba(2, 2, 2, 0.322);
     width: 100%;
@@ -41,7 +44,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 4;
     display: none;
     animation: fadeIn 0.2s linear;
   }
@@ -78,8 +81,8 @@
     font-size: 22px;
   }
   header .container .row .navbar .nav-menu .menu-bar .menu-res ul li a:focus {
-    color: #46B20F;
-    border-bottom: 2px solid #46B20F;
+    color: #46b20f;
+    border-bottom: 2px solid #46b20f;
   }
   header .container .row main {
     display: block;
@@ -91,24 +94,28 @@
     position: absolute;
     margin: 50px auto;
     background: rgba(255, 255, 255, 0.6);
-    z-index: 4;
+    z-index: 3;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
-  header .container .row .advertise .card {
+  header .container .row .advertise .advertise-card {
     margin-left: 500px;
     display: block;
     margin-top: 100px;
   }
-  header .container .row .advertise .card .card-1 {
+  header .container .row .advertise .advertise-card .card-1 {
     width: 394.167px;
     height: 437.5px;
     margin: 0px auto;
+    box-shadow: none;
+    background: transparent;
   }
-  header .container .row .advertise .card .card-2 {
+  header .container .row .advertise .advertise-card .card-2 {
     width: 442.5px;
     height: 492.5px;
     margin: 10px auto;
+    border: none;
+    box-shadow: none;
   }
   header .container .row .circle-1 {
     margin-left: 200px;
@@ -119,23 +126,61 @@
   header .container .row .cardpro-ducts h2 {
     margin-top: 150px;
   }
-  header .container .row .cardpro-ducts .card {
-    margin-left: 700px;
-    display: block;
-  }
   header .container .row .cardpro-ducts .card .row {
-    display: block;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
   }
   header .container .row .cardpro-ducts .card .row .product {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 10px;
   }
   header .container .row .cardpro-ducts .card .row .product .circle-1 {
     margin-left: -10px;
-    margin-top: 50px;
+    margin-top: 100px;
   }
   header .container .row .cardpro-ducts .card .row .product .circle-2 {
-    margin-top: 100px;
+    margin-top: 130px;
+  }
+  header .container .row .news .news-box {
+    max-width: 900px;
+  }
+  header .container .row .news-2 .news-2-box {
+    max-width: 900px;
+    justify-content: center;
+  }
+  header .container .row .regulations .regulations-card {
+    display: flex;
+    margin-left: 312.5px;
+    margin-bottom: 38.83px;
+    max-width: 900px;
+    flex-wrap: wrap;
+  }
+  header .container .row .regulations .regulations-card .regulations-box {
+    width: 288px;
+    height: 131px;
+    margin-left: 52.5px;
+  }
+  header .container .row .communication {
+    display: block;
+  }
+  header .container .row footer .infor-footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+  }
+  header .container .row footer .infor-footer .infor-footer-homepage {
+    margin-left: 69.67px;
+  }
+  header .container .row footer .infor-footer .infor-footer-support {
+    padding-top: 10px;
+  }
+  header .container .row footer .infor-footer .infor-footer-support ul li span {
+    padding-left: 25px;
+  }
+  header .container .row footer .infor-footer .infor-footer-contact {
+    width: 350px;
+    padding-left: 150px;
+    padding-top: 10px;
   }
 }
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -185,8 +230,46 @@
     font-size: 22px;
   }
   header .container .row .navbar .nav-menu .menu-bar .menu-res ul li a:focus {
-    color: #46B20F;
-    border-bottom: 2px solid #46B20F;
+    color: #46b20f;
+    border-bottom: 2px solid #46b20f;
+  }
+  header .container .row .card {
+    display: flex;
+    margin-top: 200px;
+  }
+  header .container .row .card .row {
+    display: flex;
+  }
+  header .container .row .cardpro-ducts {
+    max-width: 1400px;
+  }
+  header .container .row .cardpro-ducts .card .row .product {
+    margin-bottom: 50px;
+  }
+  header .container .row .cardpro-ducts .card .row .product .circle-2 {
+    top: -170px;
+  }
+  header .container .row .news-2 .news-2-box {
+    max-width: 1200px;
+    justify-content: center;
+  }
+  header .container .row .regulations .regulations-card {
+    max-width: 1200px;
+    flex-wrap: wrap;
+  }
+  header .container .row .regulations .regulations-card .regulations-box {
+    width: 288px;
+    height: 131px;
+    margin-left: 52.5px;
+  }
+  header .container .row footer .infor-footer .infor-footer-support {
+    padding-left: 69.67px;
+  }
+  header .container .row footer .infor-footer .infor-footer-support ul li span {
+    padding-left: 25px;
+  }
+  header .container .row footer .infor-footer .infor-footer-contact ul li span {
+    margin-left: -45px;
   }
 }
 @media (min-width: 1024px) {
@@ -202,6 +285,40 @@
   }
   header .container .row .card .row {
     display: flex;
+  }
+  header .container .row .cardpro-ducts {
+    max-width: 1400px;
+  }
+  header .container .row .cardpro-ducts .card .row .product {
+    margin-bottom: 50px;
+  }
+  header .container .row .cardpro-ducts .card .row .product .circle-2 {
+    top: -170px;
+  }
+  header .container .row .news-2 .news-2-box {
+    max-width: 1200px;
+    justify-content: center;
+  }
+  header .container .row .regulations .regulations-card {
+    max-width: 1200px;
+    flex-wrap: wrap;
+  }
+  header .container .row .regulations .regulations-card .regulations-box {
+    width: 288px;
+    height: 131px;
+    margin-left: 52.5px;
+  }
+  header .container .row .communication {
+    display: flex;
+  }
+  header .container .row footer .infor-footer .infor-footer-support {
+    padding-left: 69.67px;
+  }
+  header .container .row footer .infor-footer .infor-footer-support ul li span {
+    padding-left: 25px;
+  }
+  header .container .row footer .infor-footer .infor-footer-contact ul li span {
+    margin-left: -45px;
   }
 }
 header .container .row {
@@ -368,12 +485,12 @@ header .container .row .advertise .content p {
   font-weight: 400;
   line-height: 20.417px;
 }
-header .container .row .card {
+header .container .row .advertise-card {
   display: flex;
   margin-left: 313.33px;
   justify-content: space-evenly;
 }
-header .container .row .card .card-1 {
+header .container .row .advertise-card .card-1 {
   width: 294.167px;
   height: 337.5px;
   margin-top: 142.5px;
@@ -381,7 +498,7 @@ header .container .row .card .card-1 {
   background: #fff;
   box-shadow: -5.833px 8.333px 72.5px 0px rgba(54, 54, 54, 0.12);
 }
-header .container .row .card .card-1 .quality {
+header .container .row .advertise-card .card-1 .quality {
   width: 83.333px;
   height: 83.333px;
   background: #FFF0E7;
@@ -390,10 +507,10 @@ header .container .row .card .card-1 .quality {
   margin-left: 33.33px;
   margin-bottom: 23.33px;
 }
-header .container .row .card .card-1 .quality img {
+header .container .row .advertise-card .card-1 .quality img {
   margin: 19.17px;
 }
-header .container .row .card .card-1 span {
+header .container .row .advertise-card .card-1 span {
   color: #2C2C2C;
   font-family: "Inter", sans-serif;
   font-size: 43.333px;
@@ -402,7 +519,7 @@ header .container .row .card .card-1 span {
   line-height: normal;
   margin-left: 35px;
 }
-header .container .row .card .card-1 p {
+header .container .row .advertise-card .card-1 p {
   margin-top: 24.67px;
   color: #2C2C2C;
   font-family: "Inter", sans-serif;
@@ -412,7 +529,7 @@ header .container .row .card .card-1 p {
   line-height: 30.833px;
   margin-left: 33.33px;
 }
-header .container .row .card .card-2 {
+header .container .row .advertise-card .card-2 {
   margin: 115px 21.67px;
   width: 342.5px;
   height: 392.5px;
@@ -421,7 +538,7 @@ header .container .row .card .card-2 {
   background: #fff;
   box-shadow: -5.833px 8.333px 72.5px 0px rgba(54, 54, 54, 0.12);
 }
-header .container .row .card .card-2 .quality {
+header .container .row .advertise-card .card-2 .quality {
   width: 83.333px;
   height: 83.333px;
   background: #F2FFEC;
@@ -430,10 +547,10 @@ header .container .row .card .card-2 .quality {
   margin-left: 33.33px;
   margin-bottom: 23.33px;
 }
-header .container .row .card .card-2 .quality img {
+header .container .row .advertise-card .card-2 .quality img {
   margin: 19.17px;
 }
-header .container .row .card .card-2 span {
+header .container .row .advertise-card .card-2 span {
   color: #2C2C2C;
   font-family: "Inter", sans-serif;
   font-size: 43.333px;
@@ -442,7 +559,7 @@ header .container .row .card .card-2 span {
   line-height: normal;
   margin-left: 35px;
 }
-header .container .row .card .card-2 p {
+header .container .row .advertise-card .card-2 p {
   margin-top: 24.67px;
   color: #2C2C2C;
   font-family: "Inter", sans-serif;
@@ -479,10 +596,15 @@ header .container .row .cardpro-ducts h2 {
   font-size: 31.667px;
   font-style: normal;
   font-weight: 800;
-  line-height: 131.523%; /* 41.649px */
+  line-height: 131.523%;
 }
 header .container .row .cardpro-ducts .card {
+  display: flex;
   margin-top: 200px;
+  margin-left: 200px;
+}
+header .container .row .cardpro-ducts .card .row {
+  display: flex;
 }
 header .container .row .cardpro-ducts .card .row .product {
   width: 269.32px;
@@ -597,13 +719,13 @@ header .container .row .news p {
   width: 657.5px;
   margin-bottom: 29.05px;
 }
-header .container .row .news .box {
+header .container .row .news .news-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-left: 200px;
 }
-header .container .row .news .box .card-news {
+header .container .row .news .news-box .card-news {
   width: 385px;
   height: 478.27px;
   display: flex;
@@ -611,20 +733,20 @@ header .container .row .news .box .card-news {
   margin-right: 23.33px;
   margin-bottom: 79.67px;
 }
-header .container .row .news .box .card-news img {
+header .container .row .news .news-box .card-news img {
   width: 385px;
   height: 273.333px;
 }
-header .container .row .news .box .card-news img[src="./img/Rectangle 12.png"] {
+header .container .row .news .news-box .card-news img[src="./img/Rectangle 12.png"] {
   width: 383.333px;
 }
-header .container .row .news .box .card-news .news-time {
+header .container .row .news .news-box .card-news .news-time {
   width: 390px;
   display: flex;
   margin-top: 16.27px;
   margin-bottom: 18.67px;
 }
-header .container .row .news .box .card-news .news-time span {
+header .container .row .news .news-box .card-news .news-time span {
   color: #46b20f;
   font-family: "Inter", sans-serif;
   font-size: 15px;
@@ -632,7 +754,7 @@ header .container .row .news .box .card-news .news-time span {
   font-weight: 500;
   line-height: normal;
 }
-header .container .row .news .box .card-news .news-time span:nth-child(3) {
+header .container .row .news .news-box .card-news .news-time span:nth-child(3) {
   color: #a3a3a3;
   font-family: "Inter", sans-serif;
   font-size: 15px;
@@ -640,12 +762,12 @@ header .container .row .news .box .card-news .news-time span:nth-child(3) {
   font-weight: 500;
   line-height: normal;
 }
-header .container .row .news .box .card-news .news-time img {
+header .container .row .news .news-box .card-news .news-time img {
   width: 20px;
   height: 20px;
   margin-left: 170px;
 }
-header .container .row .news .box .card-news h3 {
+header .container .row .news .news-box .card-news h3 {
   width: 395.833px;
   color: #2C2C2C;
   font-family: "Inter", sans-serif;
@@ -655,7 +777,7 @@ header .container .row .news .box .card-news h3 {
   line-height: 26.667px;
   margin-bottom: 16px;
 }
-header .container .row .news .box .card-news p {
+header .container .row .news .news-box .card-news p {
   margin-left: 0;
 }
 header .container .row .news button {
@@ -684,6 +806,9 @@ header .container .row .news button svg {
 header .container .row .news button:hover {
   background: #46b20f;
   color: white;
+}
+header .container .row .news button:active {
+  background: #2E8900;
 }
 header .container .row .news button:hover ~ svg {
   color: white;
@@ -718,6 +843,7 @@ header .container .row .news-2 p {
 }
 header .container .row .news-2 .news-2-box {
   display: flex;
+  flex-wrap: wrap;
   margin-left: 200px;
   margin-bottom: 116.69px;
 }
@@ -750,7 +876,7 @@ header .container .row .news-2 .news-2-box .news-2-card p {
   margin-left: 27.5px;
 }
 header .container .row .news-2 .shape {
-  width: 1601.667px;
+  width: 100%;
   height: 360.833px;
   border-radius: 8.333px;
   background: #FFF0E7;
@@ -775,13 +901,14 @@ header .container .row .regulations .regulations-card .regulations-box {
 }
 header .container .row .communication {
   width: 100%;
-  display: flex;
   margin-left: 204.17px;
   margin-bottom: 101px;
+  flex-wrap: wrap;
 }
 header .container .row .communication .communication-box {
   position: relative;
   width: 50%;
+  margin-bottom: 100px;
 }
 header .container .row .communication .communication-box .communication-box-cirlce {
   width: 439.167px;
@@ -852,6 +979,9 @@ header .container .row .communication .communication-box .btn button {
 header .container .row .communication .communication-box .btn button:hover {
   background: #FF6916;
 }
+header .container .row .communication .communication-box .btn button:active {
+  background: #E05000;
+}
 header .container .row footer {
   width: 100%;
   height: 407.05px;
@@ -872,9 +1002,6 @@ header .container .row footer .infor-footer .infor-footer-logo span {
   width: 191.6667px;
   margin-top: 24.58px;
 }
-header .container .row footer .infor-footer .infor-footer-homepage {
-  margin-left: 69.17px;
-}
 header .container .row footer .infor-footer .infor-footer-homepage span {
   color: #46b20f;
   font-family: "Inter", sans-serif;
@@ -882,10 +1009,12 @@ header .container .row footer .infor-footer .infor-footer-homepage span {
   font-style: normal;
   font-weight: 600;
   line-height: 21.667px;
+  padding-left: 69.67px;
 }
 header .container .row footer .infor-footer .infor-footer-homepage ul {
   margin-top: 13px;
   list-style-type: none;
+  padding-left: 69.67px;
 }
 header .container .row footer .infor-footer .infor-footer-homepage ul li {
   margin-bottom: 6.67px;
@@ -899,9 +1028,6 @@ header .container .row footer .infor-footer .infor-footer-homepage ul li a {
   font-weight: 400;
   line-height: 20.417px;
 }
-header .container .row footer .infor-footer .infor-footer-support {
-  margin-left: 69.17px;
-}
 header .container .row footer .infor-footer .infor-footer-support span {
   color: #46b20f;
   font-family: "Inter", sans-serif;
@@ -912,7 +1038,7 @@ header .container .row footer .infor-footer .infor-footer-support span {
 }
 header .container .row footer .infor-footer .infor-footer-support ul {
   list-style-type: none;
-  margin-top: 13px;
+  padding-top: 13px;
 }
 header .container .row footer .infor-footer .infor-footer-support ul li {
   position: relative;
@@ -934,14 +1060,10 @@ header .container .row footer .infor-footer .infor-footer-support ul li span {
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
-  margin-left: 25px;
+  padding-left: 25px;
 }
 header .container .row footer .infor-footer .infor-footer-support ul li svg {
   position: absolute;
-}
-header .container .row footer .infor-footer .infor-footer-contact {
-  margin-right: 280.05px;
-  margin-left: 69.17px;
 }
 header .container .row footer .infor-footer .infor-footer-contact span {
   color: #46b20f;
@@ -950,10 +1072,12 @@ header .container .row footer .infor-footer .infor-footer-contact span {
   font-style: normal;
   font-weight: 600;
   line-height: 21.667px;
+  padding-left: 69.67px;
 }
 header .container .row footer .infor-footer .infor-footer-contact ul {
   list-style-type: none;
   margin-top: 13px;
+  padding-left: 69.67px;
 }
 header .container .row footer .infor-footer .infor-footer-contact ul li {
   margin-bottom: 6.67px;
@@ -965,7 +1089,7 @@ header .container .row footer .infor-footer .infor-footer-contact ul li span {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
-  margin-left: 25px;
+  margin-left: -45px;
 }
 header .container .row footer .infor-footer .infor-footer-contact ul li svg {
   position: absolute;

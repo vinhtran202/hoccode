@@ -8,6 +8,9 @@
   }
 }
 @media (max-width: 740px) {
+  header .container .row .navbar {
+    margin-left: 200px;
+  }
   header .container .row .navbar .over-lay {
     background: rgba(2, 2, 2, 0.322);
     width: 100%;
@@ -17,7 +20,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 4;
     display: none;
     animation: fadeIn 0.2s linear;
   }
@@ -54,8 +57,8 @@
     font-size: 22px;
   }
   header .container .row .navbar .nav-menu .menu-bar .menu-res ul li a:focus {
-    color: #46B20F;
-    border-bottom: 2px solid #46B20F;
+    color: #46b20f;
+    border-bottom: 2px solid #46b20f;
   }
   header .container .row main {
     display: block;
@@ -67,24 +70,28 @@
     position: absolute;
     margin: 50px auto;
     background: rgba(255, 255, 255, 0.6);
-    z-index: 4;
+    z-index: 3;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
-  header .container .row .advertise .card {
+  header .container .row .advertise .advertise-card {
     margin-left: 500px;
     display: block;
     margin-top: 100px;
   }
-  header .container .row .advertise .card .card-1 {
+  header .container .row .advertise .advertise-card .card-1 {
     width: 394.167px;
     height: 437.5px;
     margin: 0px auto;
+    box-shadow: none;
+    background: transparent;
   }
-  header .container .row .advertise .card .card-2 {
+  header .container .row .advertise .advertise-card .card-2 {
     width: 442.5px;
     height: 492.5px;
     margin: 10px auto;
+    border: none;
+    box-shadow: none;
   }
   header .container .row .circle-1 {
     margin-left: 200px;
@@ -95,23 +102,61 @@
   header .container .row .cardpro-ducts h2 {
     margin-top: 150px;
   }
-  header .container .row .cardpro-ducts .card {
-    margin-left: 700px;
-    display: block;
-  }
   header .container .row .cardpro-ducts .card .row {
-    display: block;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
   }
   header .container .row .cardpro-ducts .card .row .product {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 10px;
   }
   header .container .row .cardpro-ducts .card .row .product .circle-1 {
     margin-left: -10px;
-    margin-top: 50px;
+    margin-top: 100px;
   }
   header .container .row .cardpro-ducts .card .row .product .circle-2 {
-    margin-top: 100px;
+    margin-top: 130px;
+  }
+  header .container .row .news .news-box {
+    max-width: 900px;
+  }
+  header .container .row .news-2 .news-2-box {
+    max-width: 900px;
+    justify-content: center;
+  }
+  header .container .row .regulations .regulations-card {
+    display: flex;
+    margin-left: 312.5px;
+    margin-bottom: 38.83px;
+    max-width: 900px;
+    flex-wrap: wrap;
+  }
+  header .container .row .regulations .regulations-card .regulations-box {
+    width: 288px;
+    height: 131px;
+    margin-left: 52.5px;
+  }
+  header .container .row .communication {
+    display: block;
+  }
+  header .container .row footer .infor-footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+  }
+  header .container .row footer .infor-footer .infor-footer-homepage {
+    margin-left: 69.67px;
+  }
+  header .container .row footer .infor-footer .infor-footer-support {
+    padding-top: 10px;
+  }
+  header .container .row footer .infor-footer .infor-footer-support ul li span {
+    padding-left: 25px;
+  }
+  header .container .row footer .infor-footer .infor-footer-contact {
+    width: 350px;
+    padding-left: 150px;
+    padding-top: 10px;
   }
 }
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -161,8 +206,46 @@
     font-size: 22px;
   }
   header .container .row .navbar .nav-menu .menu-bar .menu-res ul li a:focus {
-    color: #46B20F;
-    border-bottom: 2px solid #46B20F;
+    color: #46b20f;
+    border-bottom: 2px solid #46b20f;
+  }
+  header .container .row .card {
+    display: flex;
+    margin-top: 200px;
+  }
+  header .container .row .card .row {
+    display: flex;
+  }
+  header .container .row .cardpro-ducts {
+    max-width: 1400px;
+  }
+  header .container .row .cardpro-ducts .card .row .product {
+    margin-bottom: 50px;
+  }
+  header .container .row .cardpro-ducts .card .row .product .circle-2 {
+    top: -170px;
+  }
+  header .container .row .news-2 .news-2-box {
+    max-width: 1200px;
+    justify-content: center;
+  }
+  header .container .row .regulations .regulations-card {
+    max-width: 1200px;
+    flex-wrap: wrap;
+  }
+  header .container .row .regulations .regulations-card .regulations-box {
+    width: 288px;
+    height: 131px;
+    margin-left: 52.5px;
+  }
+  header .container .row footer .infor-footer .infor-footer-support {
+    padding-left: 69.67px;
+  }
+  header .container .row footer .infor-footer .infor-footer-support ul li span {
+    padding-left: 25px;
+  }
+  header .container .row footer .infor-footer .infor-footer-contact ul li span {
+    margin-left: -45px;
   }
 }
 @media (min-width: 1024px) {
@@ -178,6 +261,40 @@
   }
   header .container .row .card .row {
     display: flex;
+  }
+  header .container .row .cardpro-ducts {
+    max-width: 1400px;
+  }
+  header .container .row .cardpro-ducts .card .row .product {
+    margin-bottom: 50px;
+  }
+  header .container .row .cardpro-ducts .card .row .product .circle-2 {
+    top: -170px;
+  }
+  header .container .row .news-2 .news-2-box {
+    max-width: 1200px;
+    justify-content: center;
+  }
+  header .container .row .regulations .regulations-card {
+    max-width: 1200px;
+    flex-wrap: wrap;
+  }
+  header .container .row .regulations .regulations-card .regulations-box {
+    width: 288px;
+    height: 131px;
+    margin-left: 52.5px;
+  }
+  header .container .row .communication {
+    display: flex;
+  }
+  header .container .row footer .infor-footer .infor-footer-support {
+    padding-left: 69.67px;
+  }
+  header .container .row footer .infor-footer .infor-footer-support ul li span {
+    padding-left: 25px;
+  }
+  header .container .row footer .infor-footer .infor-footer-contact ul li span {
+    margin-left: -45px;
   }
 }
 

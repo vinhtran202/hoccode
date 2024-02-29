@@ -170,7 +170,7 @@ header {
           }
         }
       }
-      .card {
+      .advertise-card {
         display: flex;
         margin-left: 313.33px;
         justify-content: space-evenly;
@@ -284,13 +284,14 @@ header {
           font-size: 31.667px;
           font-style: normal;
           font-weight: 800;
-          line-height: 131.523%; /* 41.649px */
+          line-height: 131.523%;
         }
         .card {
-          // display: flex;
+          display: flex;
           margin-top: 200px;
+          margin-left: 200px;
           .row {
-            // display: flex;
+            display: flex;
             .product {
               width: 269.32px;
               height: 592.37px;
@@ -408,7 +409,7 @@ header {
           width: 657.5px;
           margin-bottom: 29.05px;
         }
-        .box {
+        .news-box {
           display: flex;
           flex-wrap: wrap;
           justify-content: space-evenly;
@@ -500,6 +501,9 @@ header {
           background: #46b20f;
           color: white;
         }
+        button:active {
+          background: #2E8900;
+        }
         button:hover ~ svg {
           color: white;
         }
@@ -533,6 +537,7 @@ header {
         }
         .news-2-box {
           display: flex;
+          flex-wrap: wrap;
           margin-left: 200px;
           margin-bottom: 116.69px;
           .news-2-card {
@@ -567,7 +572,7 @@ header {
           }
         }
         .shape {
-          width: 1601.667px;
+          width: 100%;
           height: 360.833px;
           border-radius: 8.333px;
           background: v.$colorBg-orange-100;
@@ -594,13 +599,14 @@ header {
       }
       .communication {
         width: 100%;
-        display: flex;
         margin-left: 204.17px;
         margin-bottom: 101px;
+        flex-wrap: wrap;
 
         .communication-box {
           position: relative;
           width: 50%;
+          margin-bottom: 100px;
           .communication-box-cirlce {
             width: 439.167px;
             height: 439.167px;
@@ -675,6 +681,9 @@ header {
             button:hover {
               background: #FF6916;
             }
+            button:active {
+              background: #E05000;
+            }
           }
         }
       }
@@ -699,7 +708,6 @@ header {
             }
           }
           .infor-footer-homepage {
-            margin-left: 69.17px;
             span {
               color: #46b20f;
               font-family: v.$fontStyle;
@@ -707,10 +715,14 @@ header {
               font-style: normal;
               font-weight: 600;
               line-height: 21.667px;
+              padding-left: 69.67px;
+
             }
             ul {
               margin-top: 13px;
               list-style-type: none;
+              padding-left: 69.67px;
+
               li {
                 margin-bottom: 6.67px;
                 a {
@@ -726,7 +738,6 @@ header {
             }
           }
           .infor-footer-support {
-            margin-left: 69.17px;
 
             span {
               color: #46b20f;
@@ -735,10 +746,11 @@ header {
               font-style: normal;
               font-weight: 600;
               line-height: 21.667px;
+
             }
             ul {
               list-style-type: none;
-              margin-top: 13px;
+              padding-top: 13px;
               li {
                 position: relative;
                 margin-bottom: 6.67px;
@@ -759,7 +771,7 @@ header {
                   font-style: normal;
                   font-weight: 600;
                   line-height: 20px;
-                  margin-left: 25px;
+                  padding-left: 25px;
                 }
                 svg {
                   position: absolute;
@@ -768,8 +780,6 @@ header {
             }
           }
           .infor-footer-contact {
-            margin-right: 280.05px;
-            margin-left: 69.17px;
             span {
               color: #46b20f;
               font-family: v.$fontStyle;
@@ -777,10 +787,14 @@ header {
               font-style: normal;
               font-weight: 600;
               line-height: 21.667px;
+              padding-left: 69.67px;
+
             }
             ul {
               list-style-type: none;
               margin-top: 13px;
+              padding-left: 69.67px;
+
               li {
                 margin-bottom: 6.67px;
                 span {
@@ -790,7 +804,7 @@ header {
                   font-style: normal;
                   font-weight: 400;
                   line-height: 20px;
-                  margin-left: 25px;
+                  margin-left: -45px;
                 }
                 svg {
                   position: absolute;
