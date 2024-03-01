@@ -387,7 +387,6 @@
 header .container .row {
   width: 1600px;
 }
-
 header .container .row .navbar {
   box-shadow: 0px 1.667px 8.333px 0px rgba(0, 0, 0, 0.15);
   width: 100%;
@@ -395,7 +394,6 @@ header .container .row .navbar {
   justify-content: space-between;
   position: relative;
 }
-
 header .container .row .navbar svg {
   width: 50px;
   height: 50px;
@@ -403,30 +401,24 @@ header .container .row .navbar svg {
   right: 200px;
   top: 20px;
 }
-
 header .container .row .navbar .logo {
   margin-top: 18.6px;
 }
-
 header .container .row .navbar .logo img {
   margin-left: 200px;
 }
-
 header .container .row .navbar .nav-menu .menu-bar {
   margin-top: 51.58px;
   height: auto;
   display: block;
 }
-
 header .container .row .navbar .nav-menu .menu-bar ul {
   list-style-type: none;
   display: flex;
 }
-
 header .container .row .navbar .nav-menu .menu-bar ul li {
   margin-left: 50px;
 }
-
 header .container .row .navbar .nav-menu .menu-bar ul li a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
@@ -436,40 +428,32 @@ header .container .row .navbar .nav-menu .menu-bar ul li a {
   line-height: 21.667px;
   padding-bottom: 20px;
 }
-
 header .container .row .navbar .nav-menu .menu-bar ul li a:hover {
   color: #46b20f;
   border-bottom: 2px solid #46b20f;
 }
-
 header .container .row .navbar .nav-menu .menu-bar ul li:last-child {
   margin-right: 197.83px;
 }
-
 header .container .row .navbar .nav-menu .menu-bar .icon-bar {
   position: absolute;
   right: 300px;
   bottom: 20px;
 }
-
 header .container .row .navbar .nav-menu .menu-bar .icon-bar a {
   margin-left: 50px;
 }
-
 header .container .row .navbar .nav-menu .menu-bar .icon-bar a img {
   width: 50px;
   height: 50px;
 }
-
 header .container .row main {
   display: flex;
 }
-
 header .container .row main .content-section {
   margin-left: 200px;
   margin-top: 217.5px;
 }
-
 header .container .row main .content-section h1 {
   display: block;
   width: 400px;
@@ -480,7 +464,6 @@ header .container .row main .content-section h1 {
   font-weight: 800;
   line-height: normal;
 }
-
 header .container .row main .content-section h2 {
   display: block;
   width: 514px;
@@ -492,7 +475,6 @@ header .container .row main .content-section h2 {
   line-height: 131.523%;
   margin-right: 111px;
 }
-
 header .container .row main .content-section p {
   display: block;
   width: 450px;
@@ -503,7 +485,6 @@ header .container .row main .content-section p {
   font-weight: 400;
   line-height: 20.417px;
 }
-
 header .container .row main .image-section {
   width: 776px;
   height: 708px;
@@ -512,7 +493,6 @@ header .container .row main .image-section {
   border-radius: 16.667px 0px 0px 16.667px;
   position: relative;
 }
-
 header .container .row main .image-section img {
   position: absolute;
   top: -13px;
@@ -520,7 +500,6 @@ header .container .row main .image-section img {
   width: 670px;
   height: 688px;
 }
-
 header .container .row main .image-section p {
   width: 676px;
   height: 334px;
@@ -536,15 +515,12 @@ header .container .row main .image-section p {
   top: 205px;
   right: -130px;
 }
-
 header .container .row .advertise {
   position: relative;
 }
-
 header .container .row .advertise .content {
   margin-top: 100px;
 }
-
 header .container .row .advertise .content h2 {
   width: 558px;
   height: 84px;
@@ -558,7 +534,6 @@ header .container .row .advertise .content h2 {
   font-weight: 800;
   line-height: 131.523%;
 }
-
 header .container .row .advertise .content p {
   margin-top: 24.33px;
   margin-left: 478px;
@@ -573,13 +548,11 @@ header .container .row .advertise .content p {
   font-weight: 400;
   line-height: 20.417px;
 }
-
 header .container .row .advertise-card {
   display: flex;
   margin-left: 313.33px;
   justify-content: space-evenly;
 }
-
 header .container .row .advertise-card .card-1 {
   width: 294.167px;
   height: 337.5px;
@@ -588,7 +561,6 @@ header .container .row .advertise-card .card-1 {
   background: #fff;
   box-shadow: -5.833px 8.333px 72.5px 0px rgba(54, 54, 54, 0.12);
 }
-
 header .container .row .advertise-card .card-1 .quality {
   width: 83.333px;
   height: 83.333px;
@@ -597,11 +569,9 @@ header .container .row .advertise-card .card-1 .quality {
   margin-left: 33.33px;
   margin-bottom: 23.33px;
 }
-
 header .container .row .advertise-card .card-1 .quality img {
   margin: 19.17px;
 }
-
 header .container .row .advertise-card .card-1 span {
   color: #2C2C2C;
   font-family: "Inter", sans-serif;
@@ -611,7 +581,6 @@ header .container .row .advertise-card .card-1 span {
   line-height: normal;
   margin-left: 35px;
 }
-
 header .container .row .advertise-card .card-1 p {
   margin-top: 24.67px;
   color: #2C2C2C;
@@ -622,7 +591,6 @@ header .container .row .advertise-card .card-1 p {
   line-height: 30.833px;
   margin-left: 33.33px;
 }
-
 header .container .row .advertise-card .card-2 {
   margin: 115px 21.67px;
   width: 342.5px;
@@ -632,7 +600,6 @@ header .container .row .advertise-card .card-2 {
   background: #fff;
   box-shadow: -5.833px 8.333px 72.5px 0px rgba(54, 54, 54, 0.12);
 }
-
 header .container .row .advertise-card .card-2 .quality {
   width: 83.333px;
   height: 83.333px;
@@ -641,11 +608,9 @@ header .container .row .advertise-card .card-2 .quality {
   margin-left: 33.33px;
   margin-bottom: 23.33px;
 }
-
 header .container .row .advertise-card .card-2 .quality img {
   margin: 19.17px;
 }
-
 header .container .row .advertise-card .card-2 span {
   color: #2C2C2C;
   font-family: "Inter", sans-serif;
@@ -655,7 +620,6 @@ header .container .row .advertise-card .card-2 span {
   line-height: normal;
   margin-left: 35px;
 }
-
 header .container .row .advertise-card .card-2 p {
   margin-top: 24.67px;
   color: #2C2C2C;
@@ -666,7 +630,6 @@ header .container .row .advertise-card .card-2 p {
   line-height: 30.833px;
   margin-left: 33.33px;
 }
-
 header .container .row .circle-1 {
   width: 235px;
   height: 235px;
@@ -677,7 +640,6 @@ header .container .row .circle-1 {
   left: 200px;
   z-index: -1;
 }
-
 header .container .row .circle-2 {
   width: 235px;
   height: 235px;
@@ -688,7 +650,6 @@ header .container .row .circle-2 {
   right: -120px;
   z-index: -1;
 }
-
 header .container .row .cardpro-ducts h2 {
   color: #2C2C2C;
   font-family: "Inter", sans-serif;
@@ -697,16 +658,13 @@ header .container .row .cardpro-ducts h2 {
   font-weight: 800;
   line-height: 131.523%;
 }
-
 header .container .row .cardpro-ducts .card {
   display: flex;
   margin-top: 200px;
 }
-
 header .container .row .cardpro-ducts .card .row {
   display: flex;
 }
-
 header .container .row .cardpro-ducts .card .row .product {
   width: 269.32px;
   height: 592.37px;
@@ -714,7 +672,6 @@ header .container .row .cardpro-ducts .card .row .product {
   margin-right: 83.33px;
   position: relative;
 }
-
 header .container .row .cardpro-ducts .card .row .product .circle-1 {
   width: 269.316px;
   height: 269.316px;
@@ -724,7 +681,6 @@ header .container .row .cardpro-ducts .card .row .product .circle-1 {
   top: -120px;
   left: 10px;
 }
-
 header .container .row .cardpro-ducts .card .row .product .circle-2 {
   width: 269.316px;
   height: 269.316px;
@@ -734,13 +690,11 @@ header .container .row .cardpro-ducts .card .row .product .circle-2 {
   top: -150px;
   left: 10px;
 }
-
 header .container .row .cardpro-ducts .card .row .product img {
   width: 240.117px;
   height: 241.148px;
   margin-bottom: 17.19px;
 }
-
 header .container .row .cardpro-ducts .card .row .product h3 {
   height: 56px;
   color: #2C2C2C;
@@ -751,12 +705,10 @@ header .container .row .cardpro-ducts .card .row .product h3 {
   font-weight: 700;
   line-height: normal;
 }
-
 header .container .row .cardpro-ducts .card .row .product h3:hover {
   color: #46B20F;
   cursor: pointer;
 }
-
 header .container .row .cardpro-ducts .card .row .product hr {
   width: 40.833px;
   stroke-width: 1.667px;
@@ -765,7 +717,6 @@ header .container .row .cardpro-ducts .card .row .product hr {
   margin-top: 14px;
   margin-bottom: 16.67px;
 }
-
 header .container .row .cardpro-ducts .card .row .product p {
   color: #2C2C2C;
   text-align: center;
@@ -776,7 +727,6 @@ header .container .row .cardpro-ducts .card .row .product p {
   line-height: 21.667px;
   margin-bottom: 6.33px;
 }
-
 header .container .row .cardpro-ducts .card .row .product .title {
   color: #656565;
   text-align: center;
@@ -786,7 +736,6 @@ header .container .row .cardpro-ducts .card .row .product .title {
   font-weight: 400;
   line-height: 21.667px;
 }
-
 header .container .row .cardpro-ducts .card .row .product span {
   color: #2C2C2C;
   font-family: "Inter", sans-serif;
@@ -795,7 +744,6 @@ header .container .row .cardpro-ducts .card .row .product span {
   font-weight: 600;
   line-height: 26.667px;
 }
-
 header .container .row .cardpro-ducts .card .row .product button {
   width: 177.333px;
   height: 46.66px;
@@ -810,13 +758,11 @@ header .container .row .cardpro-ducts .card .row .product button {
   line-height: normal;
   margin-top: 30.88px;
 }
-
 header .container .row .cardpro-ducts .card .row .product button:hover {
   color: white;
   background: #FF6916;
   cursor: pointer;
 }
-
 header .container .row .news h2 {
   margin-bottom: 23px;
   color: #2C2C2C;
@@ -826,20 +772,17 @@ header .container .row .news h2 {
   font-weight: 800;
   line-height: 131.523%;
 }
-
 header .container .row .news p {
   margin-left: 471.67px;
   width: 657.5px;
   margin-bottom: 29.05px;
 }
-
 header .container .row .news .news-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-left: 200px;
 }
-
 header .container .row .news .news-box .card-news {
   width: 385px;
   height: 478.27px;
@@ -848,23 +791,19 @@ header .container .row .news .news-box .card-news {
   margin-right: 23.33px;
   margin-bottom: 79.67px;
 }
-
 header .container .row .news .news-box .card-news img {
   width: 385px;
   height: 273.333px;
 }
-
 header .container .row .news .news-box .card-news img[src="./img/Rectangle 12.png"] {
   width: 383.333px;
 }
-
 header .container .row .news .news-box .card-news .news-time {
   width: 390px;
   display: flex;
   margin-top: 16.27px;
   margin-bottom: 18.67px;
 }
-
 header .container .row .news .news-box .card-news .news-time span {
   color: #46b20f;
   font-family: "Inter", sans-serif;
@@ -873,7 +812,6 @@ header .container .row .news .news-box .card-news .news-time span {
   font-weight: 500;
   line-height: normal;
 }
-
 header .container .row .news .news-box .card-news .news-time span:nth-child(3) {
   color: #a3a3a3;
   font-family: "Inter", sans-serif;
@@ -882,13 +820,11 @@ header .container .row .news .news-box .card-news .news-time span:nth-child(3) {
   font-weight: 500;
   line-height: normal;
 }
-
 header .container .row .news .news-box .card-news .news-time img {
   width: 20px;
   height: 20px;
   margin-left: 170px;
 }
-
 header .container .row .news .news-box .card-news h3 {
   width: 395.833px;
   color: #2C2C2C;
@@ -899,11 +835,9 @@ header .container .row .news .news-box .card-news h3 {
   line-height: 26.667px;
   margin-bottom: 16px;
 }
-
 header .container .row .news .news-box .card-news p {
   margin-left: 0;
 }
-
 header .container .row .news button {
   width: 153px;
   height: 46.6666px;
@@ -923,30 +857,24 @@ header .container .row .news button {
   line-height: normal;
   margin-bottom: 100px;
 }
-
 header .container .row .news button svg {
   width: 20px;
   height: 20px;
 }
-
 header .container .row .news button:hover {
   background: #46b20f;
   color: white;
 }
-
 header .container .row .news button:active {
   background: #2E8900;
 }
-
 header .container .row .news button:hover ~ svg {
   color: white;
 }
-
 header .container .row .news-2 {
   width: 100%;
   position: relative;
 }
-
 header .container .row .news-2 h2 {
   width: 394px;
   margin-bottom: 24.33px;
@@ -958,7 +886,6 @@ header .container .row .news-2 h2 {
   font-weight: 800;
   line-height: 131.523%;
 }
-
 header .container .row .news-2 p {
   width: 745px;
   margin-left: 427.5px;
@@ -971,14 +898,12 @@ header .container .row .news-2 p {
   line-height: 20.417px;
   margin-bottom: 50px;
 }
-
 header .container .row .news-2 .news-2-box {
   display: flex;
   flex-wrap: wrap;
   margin-left: 200px;
   margin-bottom: 116.69px;
 }
-
 header .container .row .news-2 .news-2-box .news-2-card {
   width: 345.833px;
   height: 359.167px;
@@ -986,7 +911,6 @@ header .container .row .news-2 .news-2-box .news-2-card {
   background: #fff;
   margin-right: 25px;
 }
-
 header .container .row .news-2 .news-2-box .news-2-card h2 {
   width: 280px;
   color: #e05000;
@@ -1002,14 +926,12 @@ header .container .row .news-2 .news-2-box .news-2-card h2 {
   text-align: left;
   margin-left: 27.5px;
 }
-
 header .container .row .news-2 .news-2-box .news-2-card p {
   width: 300px;
   margin-left: 0;
   text-align: left;
   margin-left: 27.5px;
 }
-
 header .container .row .news-2 .shape {
   width: 100%;
   height: 360.833px;
@@ -1019,36 +941,30 @@ header .container .row .news-2 .shape {
   bottom: 0;
   z-index: -1;
 }
-
 header .container .row .regulations {
   width: 100%;
   margin-top: 133.31px;
   margin-bottom: 133px;
 }
-
 header .container .row .regulations .regulations-card {
   display: flex;
   margin-bottom: 38.83px;
 }
-
 header .container .row .regulations .regulations-card .regulations-box {
   width: 288px;
   height: 131px;
   margin-left: 52.5px;
 }
-
 header .container .row .communication {
   width: 100%;
   margin-bottom: 101px;
   flex-wrap: wrap;
 }
-
 header .container .row .communication .communication-box {
   position: relative;
   width: 50%;
   margin-bottom: 100px;
 }
-
 header .container .row .communication .communication-box .communication-box-cirlce {
   width: 439.167px;
   height: 439.167px;
@@ -1059,7 +975,6 @@ header .container .row .communication .communication-box .communication-box-cirl
   right: 210px;
   z-index: -1;
 }
-
 header .container .row .communication .communication-box h3 {
   width: 361px;
   color: #2C2C2C;
@@ -1070,7 +985,6 @@ header .container .row .communication .communication-box h3 {
   line-height: 26.667px;
   margin-bottom: 26px;
 }
-
 header .container .row .communication .communication-box input[type=text] {
   width: 598px;
   height: 45.66px;
@@ -1080,7 +994,6 @@ header .container .row .communication .communication-box input[type=text] {
   border-radius: 6.667px;
   border: 0.833px solid #a3a3a3;
 }
-
 header .container .row .communication .communication-box input[type=email],
 header .container .row .communication .communication-box input[type=number] {
   width: 286.6666px;
@@ -1092,11 +1005,9 @@ header .container .row .communication .communication-box input[type=number] {
   border: 0.833px solid #a3a3a3;
   margin-right: 17.5px;
 }
-
 header .container .row .communication .communication-box input[placeholder="Nội Dung"] {
   height: 149px;
 }
-
 header .container .row .communication .communication-box textarea {
   width: 598px;
   height: 149px;
@@ -1105,7 +1016,6 @@ header .container .row .communication .communication-box textarea {
   border: 0.833px solid #a3a3a3;
   padding: 13.333px 176.667px 13.333px 13.333px;
 }
-
 header .container .row .communication .communication-box .btn button {
   width: 128.333px;
   height: 46.666px;
@@ -1121,38 +1031,31 @@ header .container .row .communication .communication-box .btn button {
   background: #46b20f;
   margin-left: 463.33px;
 }
-
 header .container .row .communication .communication-box .btn button:hover {
   background: #FF6916;
 }
-
 header .container .row .communication .communication-box .btn button:active {
   background: #E05000;
 }
-
 header .container .row footer {
   width: 100%;
   height: 407.05px;
   background: #F2FFEC;
   margin-top: 110px;
 }
-
 header .container .row footer .infor-footer {
   display: flex;
   margin-top: 63.92px;
   margin-bottom: 72.5px;
 }
-
 header .container .row footer .infor-footer .infor-footer-logo {
   margin-right: 107.05px;
 }
-
 header .container .row footer .infor-footer .infor-footer-logo span {
   display: block;
   width: 191.6667px;
   margin-top: 24.58px;
 }
-
 header .container .row footer .infor-footer .infor-footer-homepage span {
   color: #46b20f;
   font-family: "Inter", sans-serif;
@@ -1162,17 +1065,14 @@ header .container .row footer .infor-footer .infor-footer-homepage span {
   line-height: 21.667px;
   padding-left: 69.67px;
 }
-
 header .container .row footer .infor-footer .infor-footer-homepage ul {
   margin-top: 13px;
   list-style-type: none;
   padding-left: 69.67px;
 }
-
 header .container .row footer .infor-footer .infor-footer-homepage ul li {
   margin-bottom: 6.67px;
 }
-
 header .container .row footer .infor-footer .infor-footer-homepage ul li a {
   text-decoration: none;
   color: #2C2C2C;
@@ -1182,7 +1082,6 @@ header .container .row footer .infor-footer .infor-footer-homepage ul li a {
   font-weight: 400;
   line-height: 20.417px;
 }
-
 header .container .row footer .infor-footer .infor-footer-support span {
   color: #46b20f;
   font-family: "Inter", sans-serif;
@@ -1191,17 +1090,14 @@ header .container .row footer .infor-footer .infor-footer-support span {
   font-weight: 600;
   line-height: 21.667px;
 }
-
 header .container .row footer .infor-footer .infor-footer-support ul {
   list-style-type: none;
   padding-top: 13px;
 }
-
 header .container .row footer .infor-footer .infor-footer-support ul li {
   position: relative;
   margin-bottom: 6.67px;
 }
-
 header .container .row footer .infor-footer .infor-footer-support ul li a {
   text-decoration: none;
   color: #2C2C2C;
@@ -1211,7 +1107,6 @@ header .container .row footer .infor-footer .infor-footer-support ul li a {
   font-weight: 400;
   line-height: 20.417px;
 }
-
 header .container .row footer .infor-footer .infor-footer-support ul li span {
   color: #2C2C2C;
   font-family: "Inter", sans-serif;
@@ -1221,11 +1116,9 @@ header .container .row footer .infor-footer .infor-footer-support ul li span {
   line-height: 20px;
   padding-left: 25px;
 }
-
 header .container .row footer .infor-footer .infor-footer-support ul li svg {
   position: absolute;
 }
-
 header .container .row footer .infor-footer .infor-footer-contact span {
   color: #46b20f;
   font-family: "Inter", sans-serif;
@@ -1235,17 +1128,14 @@ header .container .row footer .infor-footer .infor-footer-contact span {
   line-height: 21.667px;
   padding-left: 69.67px;
 }
-
 header .container .row footer .infor-footer .infor-footer-contact ul {
   list-style-type: none;
   margin-top: 13px;
   padding-left: 69.67px;
 }
-
 header .container .row footer .infor-footer .infor-footer-contact ul li {
   margin-bottom: 6.67px;
 }
-
 header .container .row footer .infor-footer .infor-footer-contact ul li span {
   color: #2C2C2C;
   font-family: "Inter", sans-serif;
@@ -1255,27 +1145,22 @@ header .container .row footer .infor-footer .infor-footer-contact ul li span {
   line-height: 20px;
   margin-left: -45px;
 }
-
 header .container .row footer .infor-footer .infor-footer-contact ul li svg {
   position: absolute;
 }
-
 header .container .row footer hr {
   width: 975px;
   margin-left: 312.5px;
 }
-
 header .container .row footer .icon-footer {
   display: flex;
   justify-content: space-around;
   margin-top: 24.17px;
 }
-
 header .container .row footer .icon-footer .icon-footer-social {
   display: flex;
   justify-content: center;
 }
-
 header .container .row footer .icon-footer .icon-footer-social .small-icon {
   width: 40px;
   height: 40px;
@@ -1284,17 +1169,13 @@ header .container .row footer .icon-footer .icon-footer-social .small-icon {
   border-radius: 999px;
   margin-right: 6.67px;
 }
-
 header .container .row footer .icon-footer .icon-footer-social .small-icon svg {
   margin-top: 10px;
   margin-left: 10px;
 }
-
 header .container .row footer .icon-footer .icon-footer-social .small-icon img {
   margin-top: 12px;
   margin-left: 12px;
 }
-
-
 
 /*# sourceMappingURL=style.css.map */

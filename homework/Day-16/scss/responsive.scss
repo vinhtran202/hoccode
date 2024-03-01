@@ -95,6 +95,10 @@
               margin: 0px auto;
               box-shadow: none;
               background: transparent;
+          box-shadow: -5.833px 8.333px 72.5px 0px rgba(54, 54, 54, 0.12);
+              .quantity {
+                margin-top: 50px;
+              }
             }
             .card-2 {
               width: 442.5px;
@@ -102,6 +106,10 @@
               margin: 10px auto;
               border: none;
               box-shadow: none;
+          box-shadow: -5.833px 8.333px 72.5px 0px rgba(54, 54, 54, 0.12);
+          .quantity {
+                padding-top: 50px;
+          }
             }
           }
         }
@@ -112,10 +120,13 @@
           margin-right: 70px;
         }
         .cardpro-ducts {
+          margin-left: 250px;
           h2 {
             margin-top: 150px;
+            margin-left: 400px;
           }
           .card {
+          padding-left: 150px;
             .row {
               width: 900px;
               display: flex;
@@ -135,13 +146,13 @@
         }
         .news {
           h2 {
+          margin-left:744.17px;
            
           }
           p {
           }
           .news-box {
-            max-width: 900px;
-            
+            max-width: 1200px;
             .card-news {
   
               .news-time {
@@ -170,12 +181,15 @@
         }
         .news-2 {
           h2 {
+          margin-left: 603.33px;
+            
           }
           p {
           }
           .news-2-box {
-            max-width: 900px;
+            max-width: 1200px;
             justify-content: center;
+            padding-left: 100px;
             .news-2-card {
               img {
               }
@@ -189,9 +203,9 @@
           
         }
         .regulations {
+          margin-left: 550px;
           .regulations-card {
             display: flex;
-            margin-left: 312.5px;
             margin-bottom: 38.83px;
           max-width: 900px;
           flex-wrap: wrap;
@@ -203,6 +217,7 @@
           }
         }
         .communication {
+        margin-left: 550px;
           display: block;
           .communication-box {
             .communication-box-cirlce {
@@ -224,6 +239,8 @@
             display: flex;
             flex-wrap: wrap;
             width: 700px;
+          margin-left: 500px;
+
             .infor-footer-logo {
               img {
               }
@@ -363,8 +380,11 @@
           }
         }
         .cardpro-ducts {
-          max-width: 1400px;
+          max-width: 1200px;
+          margin-left: 300px;
           h2 {
+            text-align: center;
+            transform: translateX(-100px);
           }
         .card {
           .row {
@@ -380,8 +400,43 @@
           }
         }
       }
+      .news {
+        h2 {
+         text-align: center;
+        }
+        p {
+        }
+        .news-box {
+          
+          .card-news {
+
+            .news-time {
+              span {
+                
+              }
+              span:nth-child(3) {
+               
+              }
+              img {
+              }
+            }
+            h3 {
+              
+            }
+            p {
+              
+            }
+          }
+        }
+        button {
+         
+          svg {
+          }
+        }
+      }
       .news-2 {
         h2 {
+         margin-left: 600px;
         }
         p {
         }
@@ -401,6 +456,7 @@
         
       }
       .regulations {
+        padding-left: 300px;
         .regulations-card {
         max-width: 1200px;
         flex-wrap: wrap;
@@ -408,6 +464,23 @@
             width: 288px;
             height: 131px;
             margin-left: 52.5px;
+          }
+        }
+      }
+      .communication {
+        margin-left: 204.17px;
+        display: flex;
+        .communication-box {
+          .communication-box-cirlce {
+           
+          }
+          h3 {
+          }
+          
+          .btn {
+            button {
+              
+            }
           }
         }
       }
@@ -512,8 +585,10 @@
         .cardpro-ducts {
           max-width: 1400px;
           h2 {
+            margin-left: 720px;
           }
         .card {
+          padding-left: 300px;
           .row {
             .product {  
           margin-bottom: 50px;
@@ -527,8 +602,44 @@
           }
         }
       }
+      .news {
+        h2 {
+          text-align: center;
+        }
+        p {
+        }
+        .news-box {
+          
+          .card-news {
+
+            .news-time {
+              span {
+                
+              }
+              span:nth-child(3) {
+               
+              }
+              img {
+              }
+            }
+            h3 {
+              
+            }
+            p {
+              
+            }
+          }
+        }
+        button {
+         
+          svg {
+          }
+        }
+      }
       .news-2 {
         h2 {
+          margin-left: 603.33px;
+
         }
         p {
         }
@@ -548,6 +659,7 @@
         
       }
       .regulations {
+        margin-left: 315px;
         .regulations-card {
         max-width: 1200px;
         flex-wrap: wrap;
@@ -559,6 +671,8 @@
         }
       }
       .communication {
+        margin-left: 204.17px;
+
         display: flex;
         .communication-box {
           .communication-box-cirlce {
@@ -576,6 +690,8 @@
       }
       footer {
           .infor-footer {
+          margin-left: 312px;
+
             .infor-footer-logo {
               img {
               }
