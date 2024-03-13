@@ -31,7 +31,7 @@ function numberToWords(number) {
     }
   
     if (isNaN(number) || number < 0 || number > 9999) {
-      return 'Ràng buộc: Số cần chuyển đổi có giá trị từ 0 đến 9999';
+      return 'Số cần chuyển đổi có giá trị từ 0 đến 9999';
     }
   
     if (number === 0) {
@@ -41,7 +41,7 @@ function numberToWords(number) {
     }
   }
   
-  const inputNumber = 4298;
+  const inputNumber = -1;
   const wordsResult = numberToWords(inputNumber);
   
   console.log(wordsResult);
