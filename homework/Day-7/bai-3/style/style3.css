@@ -39,24 +39,27 @@ hr{
     width: 135px;
     height: auto;
     list-style-type: none;
-    background-color: rgb(196, 90, 4); 
+    background-color: gray); 
     margin-left: 5px;
     text-align: center;
     border-radius: 35px;
     padding: 10px ;
+    border: 1px solid #ccc ;
 }
 
 .menu li:hover {
     cursor: pointer;
+    color: white;
     background-color: rgb(255, 117, 5);
 }
+
 .menu li a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .menu li span {
     font-size: 14px;
-    color: white;
+    color: black;
     font-weight: 300;
     font-style: italic;
 }
