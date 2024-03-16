@@ -33,12 +33,12 @@ function resetIndex() {
 // tạo hàm để tô màu nền 
 function highlightWord() {
   document.querySelectorAll(".char").forEach((char) => {
-    char.style.backgroundColor = "transparent";
+    char.style.color = "black";
   });
 
   if (index < words.length) {
     const currentWord = document.querySelectorAll(".char")[index];
-    currentWord.style.backgroundColor = "yellow"; 
+    currentWord.style.color = "red"; 
     index++; 
   } else {
     resetIndex();
