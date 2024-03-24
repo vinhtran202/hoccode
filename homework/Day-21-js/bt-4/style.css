@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container {
+    margin: 15px  450px; 
+}
+.box {
+    display: flex;
+}
+
+.box .image img {
+    width: 350px;
+    padding: 10px;
+}
+.box .tilte span {
+    padding-top: 150px;
+}
+
+.container .box:nth-child(2) {
+    border-top: 2px solid rgba(128, 128, 128, 0.5) ;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5) ;
+}
