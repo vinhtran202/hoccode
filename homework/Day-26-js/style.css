@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -38,14 +40,12 @@ body {
   background: #fff;
   box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
-  
 }
 
 .popup.active {
   top: 50%;
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
- 
 }
 .popup .close-btn {
   position: absolute;
@@ -105,4 +105,179 @@ body {
   color: #1a79ca;
   text-decoration: none;
   font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: gray;
+}
+.wrapper {
+  width: 512px;
+  height: 580px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: -250px;
+  left: 0;
+}
+.nav {
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  line-height: 100px;
+  z-index: 100;
+}
+
+.nav-button .btn {
+  width: 250px;
+  height: 40px;
+  font-weight: 500;
+  background: rgba(70, 67, 67, 0.1);
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: gray;
+  font-size: 16px;
+}
+.btn.white-btn {
+  background: rgba(26, 121, 0, 1);
+  color: white;
+}
+.form-box {
+  position: relative;
+  width: 512px;
+  height: 420px;
+  overflow: hidden;
+  z-index: 2;
+}
+.login-container {
+  position: absolute;
+  left: 4px;
+  width: 500px;
+  transition: 0.5s ease-in-out;
+}
+.register-container {
+  position: absolute;
+  right: -520px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+}
+.logo img {
+  width: 114px;
+  height: 28px;
+  margin-left: 200px;
+  margin-top: 15px;
+}
+.top span {
+  color: #030303;
+  font-size: small;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+header {
+  color: #030303;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .google {
+  display: flex;
+  background: gray;
+  width: 160px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.google span {
+  color: white;
+}
+.facebook span {
+  color: white;
+}
+header .facebook {
+  display: flex;
+  background: gray;
+  width: 160px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+header svg {
+  width: 24px;
+  margin-right: 5px;
+  margin-left: 35px;
+}
+
+.line {
+  border-top: 2px solid rgba(0, 0, 0, 0.253);
+  margin-bottom: 20px;
+}
+.span-br {
+  position: absolute;
+  left: 48%;
+  top: 100px;
+  background: white;
+  font-size: 12px;
+}
+.input-field {
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #030303;
+  height: 50px;
+  width: 90%;
+  padding: 0 10px 0 10px;
+  border: 1px solid rgba(204, 201, 201, 0.199);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+.input-box-span {
+  margin-left: 25px;
+}
+.input-field:hover,
+.input-field:focus {
+  background: rgba(255, 255, 255, 0.25);
+}
+::-webkit-input-placeholder {
+  color: #7e7e7e80;
+}
+.submit {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: rgba(26, 121, 0, 1);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.two-col {
+  display: flex;
+  justify-content: space-between;
+  color: #030303;
+  font-size: small;
+  margin-top: 10px;
+}
+.two-col .one {
+  display: flex;
+  gap: 5px;
+}
+.two label a {
+  text-decoration: none;
+  color: #030303;
+}
+.two label a:hover {
+  text-decoration: underline;
 }
