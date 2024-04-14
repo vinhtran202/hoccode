@@ -71,18 +71,14 @@ const editTask = (e) => {
   const taskName = targetElement.previousElementSibling.innerText;
   const taskSpan = targetElement.previousElementSibling;
 
-  // Tạo input mới
   const input = document.createElement("input");
   input.type = "text";
   input.value = taskName;
 
-  // Thêm input vào trước taskSpan
   taskSpan.insertAdjacentElement("beforebegin", input);
 
-  // Ẩn taskSpan
   taskSpan.style.display = "none";
 
-  // Tạo sự kiện lắng nghe khi người dùng nhấn Enter để lưu chỉnh sửa
   input.addEventListener("keyup", function (event) {
     if (event.key === "Enter") {
       const newTaskName = input.value.trim();
@@ -94,7 +90,6 @@ const editTask = (e) => {
     }
   });
 
-  // Tự động focus vào input
   input.focus();
 };
 
