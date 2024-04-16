@@ -51,18 +51,6 @@
   display: flex;
   justify-content: center;
 }
-.slider .dots li {
-  list-style: none;
-  width: 10px;
-  height: 10px;
-  background-color: #fff;
-  margin: 10px;
-  border-radius: 20px;
-  transition: 0.5s;
-}
-.slider .dots li.active {
-  width: 30px;
-}
 
 .slider .dots {
   position: absolute;
@@ -84,10 +72,10 @@
   margin: 10px;
   border-radius: 20px;
   transition: 0.5s;
-  cursor: pointer; /* Thêm con trỏ khi di chuột qua */
+  cursor: pointer;
 }
 
 .slider .dots li.active {
   width: 30px;
-  background-color: #fff; /* Thay đổi màu của dots active */
+  background-color: #fff;
 }
