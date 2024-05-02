@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  padding: 152px 0px 151px 0px;
+  justify-content: center;
+  align-items: center;
+  background: var(--Light-Grey, #d5e1ef);
+}
+.card {
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  background: var(--White, #fff);
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+}
+.card-image {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+  background: #2c7dfa;
+  text-align: center;
+  padding-top: 51px;
+  margin: 16px 16px 24px 16px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.card-image img {
+  z-index: 9999;
+}
+.card-image .circle {
+  width: 328px;
+  height: 328px;
+  border-radius: 328px;
+  background: var(--blue-shade, #3685ff);
+  position: absolute;
+  z-index: -1;
+}
+.circle-1 {
+  top: -178px;
+  left: -130px;
+}
+.circle-2 {
+  bottom: -240px;
+  right: -145px;
+}
+.card-content .card-content-title {
+  width: 288px;
+  text-align: center;
+  margin: 0px 16px 16px 16px;
+}
+.card-content .card-content-title p {
+  width: 288px;
+  color: var(--Dark-Navy, #1f314f);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0px 16px 0px 16px;
+}
+.card-content .card-content-subtitle {
+  width: 256px;
+  margin: 0px 32px 32px 32px;
+  text-align: center;
+}
+
+.card-content .card-content-subtitle p {
+  color: #7d889e;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Outfit";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.188px;
+}
