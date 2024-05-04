@@ -1,5 +1,4 @@
 window.addEventListener("load", function () {
-  // Function to get time in MM:SS format
   var getTime = function (seconds) {
     var mins = Math.floor(seconds / 60);
     seconds = Math.floor(seconds - mins * 60);
@@ -8,7 +7,6 @@ window.addEventListener("load", function () {
     }`;
   };
 
-  // Get necessary DOM elements
   var audio = document.querySelector("audio");
   var playerAction = document.querySelector(".player .player-action");
   var durationEl = document.querySelector(".duration");
@@ -19,50 +17,48 @@ window.addEventListener("load", function () {
   var lyricsContainer = document.querySelector(".lyrics-container");
   var lyricsDiv = document.querySelector(".lyrics");
 
-  // Define the lyrics of the song
   var lyrics = `
-  Em, ngày em đánh rơi nụ cười vào anh
-  Có nghĩ sau này em sẽ chờ
-  Và vô tư cho đi hết những ngây thơ
-  Anh, một người hát mãi những điều mong manh
-  Lang thang tìm niềm vui đã lỡ
-  Chẳng buồn dặn lòng quên hết những chơ vơ
-  Ta yêu nhau bằng nỗi nhớ chưa khô trên những bức thư
-  Ta đâu bao giờ có lỗi khi không nghe tim chối từ
-  Chỉ tiếc rằng
-  Em không là nàng thơ
-  Anh cũng không còn là nhạc sĩ mộng mơ
-  Tình này nhẹ như gió
-  Lại trĩu lên tim ta những vết hằn
-  Tiếng yêu này mỏng manh
-  Giờ tan vỡ, thôi cũng đành
-  Xếp riêng những ngày tháng hồn nhiên
-  Trả lại...
-  Mai, rồi em sẽ quên ngày mình khờ dại
-  Mong em kỷ niệm này cất lại
-  Mong em ngày buồn thôi ướt đẫm trên vai
-  Mai, ngày em sải bước bên đời thênh thang
-  Chỉ cần một điều em hãy nhớ
-  Có một người từng yêu em tha thiết vô bờ
-  Em không là nàng thơ
-  Anh cũng không còn là nhạc sĩ mộng mơ
-  Tình này nhẹ như gió
-  Lại trĩu lên tim ta những vết hằn
-  Tiếng yêu này mỏng manh
-  Giờ tan vỡ, thôi cũng đành
-  Xếp riêng những ngày tháng hồn nhiên
-  Trả hết cho em
-  Em không là nàng thơ
-  Anh cũng không còn là nhạc sĩ mộng mơ
-  Tình này nhẹ như gió
-  Lại trĩu lên tim ta những vết hằn
-  Tiếng yêu này mỏng manh
-  Giờ tan vỡ, thôi cũng đành
-  Xếp riêng những ngày tháng hồn nhiên
-  Trả hết cho em
-  `;
+    Em, ngày em đánh rơi nụ cười vào anh
+    Có nghĩ sau này em sẽ chờ
+    Và vô tư cho đi hết những ngây thơ
+    Anh, một người hát mãi những điều mong manh
+    Lang thang tìm niềm vui đã lỡ
+    Chẳng buồn dặn lòng quên hết những chơ vơ
+    Ta yêu nhau bằng nỗi nhớ chưa khô trên những bức thư
+    Ta đâu bao giờ có lỗi khi không nghe tim chối từ
+    Chỉ tiếc rằng
+    Em không là nàng thơ
+    Anh cũng không còn là nhạc sĩ mộng mơ
+    Tình này nhẹ như gió
+    Lại trĩu lên tim ta những vết hằn
+    Tiếng yêu này mỏng manh
+    Giờ tan vỡ, thôi cũng đành
+    Xếp riêng những ngày tháng hồn nhiên
+    Trả lại...
+    Mai, rồi em sẽ quên ngày mình khờ dại
+    Mong em kỷ niệm này cất lại
+    Mong em ngày buồn thôi ướt đẫm trên vai
+    Mai, ngày em sải bước bên đời thênh thang
+    Chỉ cần một điều em hãy nhớ
+    Có một người từng yêu em tha thiết vô bờ
+    Em không là nàng thơ
+    Anh cũng không còn là nhạc sĩ mộng mơ
+    Tình này nhẹ như gió
+    Lại trĩu lên tim ta những vết hằn
+    Tiếng yêu này mỏng manh
+    Giờ tan vỡ, thôi cũng đành
+    Xếp riêng những ngày tháng hồn nhiên
+    Trả hết cho em
+    Em không là nàng thơ
+    Anh cũng không còn là nhạc sĩ mộng mơ
+    Tình này nhẹ như gió
+    Lại trĩu lên tim ta những vết hằn
+    Tiếng yêu này mỏng manh
+    Giờ tan vỡ, thôi cũng đành
+    Xếp riêng những ngày tháng hồn nhiên
+    Trả hết cho em
+    `;
 
-  // Show/hide lyrics when clicking on the "Show Lyrics" button
   lyricsToggle.addEventListener("click", function () {
     if (lyricsContainer.style.display === "none") {
       lyricsContainer.style.display = "block";
@@ -72,10 +68,8 @@ window.addEventListener("load", function () {
     }
   });
 
-  // Set duration text
   durationEl.innerText = getTime(audio.duration);
 
-  // Play/pause audio when clicking on player action button
   playerAction.addEventListener("click", function () {
     if (audio.paused) {
       audio.play();
@@ -86,14 +80,12 @@ window.addEventListener("load", function () {
     }
   });
 
-  // Update current time and progress bar as audio plays
   audio.addEventListener("timeupdate", function () {
     currentTimeEl.innerText = getTime(audio.currentTime);
     var rate = (audio.currentTime * 100) / audio.duration;
     progress.style.width = `${rate}%`;
   });
 
-  // Seek audio when clicking on progress bar
   progressBar.addEventListener("mousedown", function (e) {
     if (e.which === 1) {
       var offsetX = e.offsetX;
@@ -103,7 +95,6 @@ window.addEventListener("load", function () {
     }
   });
 
-  // Drag progress bar to seek audio
   var initialClientX = 0;
   var initialOffsetX = 0;
 
