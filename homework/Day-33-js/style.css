@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.main-wrapper {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  color: #357f7c;
+}
+
+.menu {
+  width: auto;
+  height: 70px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+}
+.menu section[value="new"] {
+  width: 250px;
+}
+
+#left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#left button {
+  font-size: 20px;
+}
+#left button:active {
+  font-size: 18px;
+  transition: 0.2s ease-out;
+}
+select {
+  width: 155px;
+  height: 30px;
+}
+
+#fileName {
+  width: 155px;
+  height: 30px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li {
+  margin-left: 10px;
+}
+
+button {
+  width: 55px;
+  height: 30px;
+  border-radius: 1px solid;
+  border: none;
+  outline: none;
+  font-size: 24px;
+}
+button:active {
+  width: 55px;
+  height: 28px;
+  transition: 0.2s ease-out;
+}
+input {
+  width: 55px;
+  height: 25px;
+}
+.line {
+  height: 17px;
+}
+
+#editor {
+  width: 1296px;
+  height: 300px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  outline: none;
+  border: none;
+  padding: 20px;
+  margin: 0px auto;
+  background-color: #fff;
+  display: flex;
+  margin: auto;
+}

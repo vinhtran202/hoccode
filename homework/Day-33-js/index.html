@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOC Editor</title>
+    <link type="text/css" rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="title">DOC Editor</div>
+      <hr />
+      <div class="menu">
+        <div id="left">
+          <select id="fileOptions">
+            <option value="new">New</option>
+            <option value="saveTxt">Save as .txt</option>
+            <option value="savePdf">Save as .pdf</option>
+          </select>
+          <input type="text" id="fileName" placeholder="File Name" />
+          <button onclick="fileAction()">save</button>
+        </div>
+        <ul>
+          <li>
+            <button onclick="changeFont('editor','bold')">
+              <strong>B</strong>
+            </button>
+          </li>
+          <li>
+            <button onclick="changeFont('editor','italic')"><em>I</em></button>
+          </li>
+          <li>
+            <button onclick="changeFont('editor','underline')"><u>U</u></button>
+          </li>
+        </ul>
+      </div>
+      <div class="line"></div>
+      <textarea id="editor"></textarea>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

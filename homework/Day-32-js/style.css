@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.draggable {
+  background: #8bb3f4;
+  border: 1px solid #fff;
+  margin: 1px 0;
+  padding: 0.5rem;
+  cursor: move;
+}
+
+.draggable.dragging {
+  opacity: 0.5;
+}
+
+/* Background Styles Only */
+
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+  font-family: Raleway;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 500px;
+  padding: 1rem;
+  background: #4286f4;
+}
+
+.side-links {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.side-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: white;
+  width: 180px;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.side-link-youtube {
+  background-color: red;
+}
+
+.side-link-twitter {
+  background-color: #1da1f2;
+}
+
+.side-link-github {
+  background-color: #6e5494;
+}
+
+.side-link-text {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.side-link-icon {
+  color: white;
+  font-size: 30px;
+}
