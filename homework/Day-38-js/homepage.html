@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./css/csshomepage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- Title -->
+    <div class="header p-3 mb-2 bg-body text-dark">
+      <h1>Infinity Scroll</h1>
+      <div>
+        Xin chào :
+        <span id="loggedUserFName"><span id="loggedUserLName"></span></span>
+      </div>
+      <div>Email: <span id="loggedUserEmail"></span></div>
+      <button id="logout" type="button" class="btn btn-outline-primary">
+        <i class="fa-solid fa-right-from-bracket"></i> Logout
+      </button>
+      <div id="index2"></div>
+    </div>
+    <div class="container2 p-3 mb-2 bg-light text-dark">
+      <!-- Loader -->
+      <div class="loader" id="loader">
+        <img src="./loading.svg" alt="" />
+      </div>
+      <!-- Image Container -->
+      <div class="image-container" id="image-container"></div>
+      <!-- Script -->
+    </div>
+
+    <script type="module" src="./homepage.js"></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

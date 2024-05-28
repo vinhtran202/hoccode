@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  background: whitesmoke;
+}
+.header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  gap: 100px;
+  top: 30px;
+  left: 50%;
+  transform: translate(-29%, -45%);
+}
+
+h1 {
+  text-align: center;
+}
+
+.container2 {
+  width: 100%;
+}
+
+button {
+  color: rgb(55, 54, 56);
+  background-color: #c9d6ff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+}
+
+button:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+div {
+  font-weight: 400;
+  color: rgb(12, 11, 11);
+}
+
+span {
+  font-weight: 600;
+  font-size: 22px;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Image Container */
+.image-container {
+  margin: 10px 30%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
+}
