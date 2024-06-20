@@ -1,10 +1,18 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { CharkraProvider, extendTheme } from "@chakra-ui/react";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+import App from "./App.jsx";
+import "./index.css";
+
+export const theme = extendTheme({
+  fonts: {
+    body: "'Josefin Sans', sans-serif",
+  },
+});
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <CharkraProvider theme={theme}>
     <App />
-  </React.StrictMode>,
-)
+  </CharkraProvider>
+);
