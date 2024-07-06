@@ -114,8 +114,8 @@ export default function Login() {
                     message: "Vui lòng nhập mật khẩu...",
                   },
                   minLength: {
-                    value: 6,
-                    message: "Vui lòng nhập mật khẩu ít nhất 6 ks ý tự",
+                    value: 4,
+                    message: "Password at least 4 characters",
                   },
                 })}
               />
