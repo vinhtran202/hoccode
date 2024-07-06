@@ -7,6 +7,8 @@ import {
   DarkModeProvider,
   useDarkMode,
 } from "./store/actions/DarkModeContext.jsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   useEffect(() => {
@@ -29,9 +31,13 @@ function App() {
       <div className="fixed top-4 right-4">
         <button
           onClick={handleToggleDarkMode}
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
+          className="px-4 py-2 bg-transparent text-black rounded  w-40 h-auto"
         >
-          {isDarkMode ? "🌛" : "🌞"}
+          {isDarkMode ? (
+            <FontAwesomeIcon icon={faMoon} size="4x" color="white" />
+          ) : (
+            <FontAwesomeIcon icon={faSun} size="4x" />
+          )}
         </button>
       </div>
       <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white flex items-center justify-center">
