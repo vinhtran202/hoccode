@@ -35,7 +35,7 @@ export default function Login() {
           src={logospace}
           alt="Your Company"
         />
-        <h2 className="mt-10 text-center text-4xl font-bold leading-9 tracking-tight  bg-white dark:bg-gray-900 text-black dark:text-white w-max ">
+        <h2 className="mt-10 text-center text-4xl font-bold leading-9 tracking-tight  bg-white dark:bg-gray-900 text-black dark:text-white w-max transform -translate-x-1/4">
           Sign in to your account
         </h2>
       </div>
