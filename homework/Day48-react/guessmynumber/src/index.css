@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+
+.press-start-2p {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn {
+  @apply border-none bg-gray-200 text-gray-900 text-2xl py-2 px-3 cursor-pointer;
+}
+
+.btn:hover {
+  @apply bg-gray-400;
+}
+
+.again {
+  @apply absolute top-2 left-2;
+}
+
+.message {
+  @apply mb-32 h-12;
+}
+
+.label-score {
+  @apply mb-8;
+}
