@@ -10,7 +10,7 @@ export default function Profile() {
   const [randomSecretNumber, setRandomSecretNumber] = useState(
     Math.floor(Math.random() * 20) + 1
   );
-  console.log(randomSecretNumber);
+  console.log("For those of you who can't win the game:", randomSecretNumber);
   const [isGuessedCorrectly, setIsGuessedCorrectly] = useState(false);
   const [message, setMessage] = useState("Start guessing...");
   const [score, setScore] = useState(20);

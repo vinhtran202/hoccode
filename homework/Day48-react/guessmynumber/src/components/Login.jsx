@@ -35,7 +35,7 @@ export default function Login() {
           src={logospace}
           alt="Your Company"
         />
-        <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+        <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 bg-white dark:bg-gray-900 text-black dark:text-white">
           Sign in to your account
         </h2>
       </div>
@@ -58,7 +58,7 @@ export default function Login() {
           <div>
             <label
               htmlFor="email"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="block text-sm font-medium leading-6 text-gray-900 bg-white dark:bg-gray-900 text-black dark:text-white"
             >
               Email address
             </label>
@@ -89,7 +89,7 @@ export default function Login() {
             <div className="flex items-center justify-between">
               <label
                 htmlFor="password"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6 text-gray-900 bg-white dark:bg-gray-900 text-black dark:text-white"
               >
                 Password
               </label>
