@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { ChevronRight, ChevronLeft, Plus, X } from "react-feather";
 import { Popover } from "react-tiny-popover";
-import { BoardContex } from "../context/BoardContex";
+import { BoardContext } from "../context/BoardContext";
 
 export default function Sidebar() {
   const blankBoard = {
@@ -12,7 +12,7 @@ export default function Sidebar() {
   const [boardData, setBoardData] = useState(blankBoard);
   const [collapsed, setCollapsed] = useState(false);
   const [show, setShow] = useState(false);
-  const { allBoard, setAllBoard } = useContext(BoardContex);
+  const { allBoard, setAllBoard } = useContext(BoardContext);
   const setActiveBoard = (index) => {
     let newBoard = { ...allBoard };
     newBoard.active = index;
@@ -144,5 +144,3 @@ export default function Sidebar() {
     </div>
   );
 }
-
-// 45p:35

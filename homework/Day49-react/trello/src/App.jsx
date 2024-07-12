@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
 import Main from "./components/Main";
-import { BoardContex } from "./context/BoardContex";
+import { BoardContext } from "./context/BoardContext";
 
 export default function App() {
   const boardData = {
@@ -52,12 +52,12 @@ export default function App() {
   return (
     <>
       <Header />
-      <BoardContex.Provider value={{ allBoard, setAllBoard }}>
+      <BoardContext.Provider value={{ allBoard, setAllBoard }}>
         <div className="content flex ">
           <Sidebar />
           <Main />
         </div>
-      </BoardContex.Provider>
+      </BoardContext.Provider>
     </>
   );
 }
