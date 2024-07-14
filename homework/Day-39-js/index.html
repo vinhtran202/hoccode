@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="login">
+      <h2>Log In</h2>
+      <input
+        type="text"
+        id="email"
+        placeholder="enter Email ...."
+        autocomplete="off"
+      />
+      <input
+        type="password"
+        id="password"
+        placeholder="enter password.... "
+        autocomplete="off"
+      />
+      <button id="sign_in">Login</button>
+    </div>
+
+    <!-- my blog area admin -->
+    <div class="my_blog">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#" id="logout">Logout</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="notifiy"></div>
+      <div class="container main">
+        <div class="main_content">
+          <!-- post form -->
+          <div class="post_form">
+            <label>Title</label>
+            <input type="text" id="title" placeholder="enter title" />
+            <label>Your Post</label>
+            <textarea name="" id="post_content" cols="30" rows="10"></textarea>
+            <button id="post_btn" class="post_btn">Post Now</button>
+            <button id="update_btn" class="update_btn">Update Post</button>
+          </div>
+          <!-- table -->
+          <div class="my_content">
+            <h2>My Posts</h2>
+            <table></table>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer_text">
+          <p>Copy Right Text Reserve Babar Ali</p>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="./js/csript.js"></script>
+  </body>
+</html>

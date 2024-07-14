@@ -3,19 +3,19 @@ import { FaPencilAlt, FaTrash } from "react-icons/fa";
 const TodoItem = ({ todo, index, setEdit, removeTodo }) => {
   return (
     <li className="flex items-center justify-between bg-white p-3 rounded shadow-md mb-3">
-      <span className="text-lg">{todo.todo}</span>
-      <div>
+      <input type="text" className="w-full" value={todo.todo} readOnly />
+      <div className="flex items-center">
         <button
           onClick={() => setEdit(index)}
-          className="mr-2 p-2 bg-gradient-to-r from-gray-400 to-Gray-600 text-white rounded hover:from-gray-500 hover:to-gray-700"
+          className="bg-green-500 text-white py-2 px-4 rounded mr-2"
         >
-          <FaPencilAlt />
+          Sửa
         </button>
         <button
           onClick={() => removeTodo(todo.id)}
-          className="bg-2 bg-gradient-to-r from-red-400 to-red-600 text-white rounded hover:from-red-500 hover:to-red-700"
+          className="bg-red-500 text-white py-2 px-4 rounded"
         >
-          <FaTrash />
+          Xóa
         </button>
       </div>
     </li>

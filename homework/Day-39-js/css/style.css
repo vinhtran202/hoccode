@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  counter-reset: section;
+}
+
+/* login  */
+
+.login {
+  width: 50%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login h1 {
+  text-align: end;
+  padding: 5px;
+}
+
+.login input {
+  display: block;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border: 1px solid #111;
+  outline: none;
+  width: 100%;
+}
+
+.login button {
+  width: 100%;
+  padding: 5px 10px;
+  background: #111;
+  border: 1px solid #111;
+  color: #fff;
+  text-align: center;
+  transition: 0.4s ease-in;
+  cursor: pointer;
+}
+.login button:hover {
+  background: transparent;
+  color: #111;
+}
+
+/* header */
+
+header {
+  background: #111;
+  color: #fff;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+header ul li a {
+  color: #fff;
+}
+
+.notifi {
+  background: green;
+  color: #fff;
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+}
+
+/* post */
+
+.main_content {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.main_content .post_form {
+  width: 300px;
+  margin: 100px auto;
+  box-shadow: rgba(red, green, blue, 0.16) 0px 1px 4px;
+  padding: 30px;
+}
+
+.main_content .post_form input,
+textarea {
+  width: 100%;
+  border: 1px solid #111;
+  padding: 5px 0;
+  margin: 20px 0;
+}
+
+.main_content .post_form button {
+  width: 100%;
+  background: #111;
+  color: #fff;
+  padding: 5px 0;
+  border: 1px solid #111;
+  transition: 0.5s ease-in-out;
+}
+.main_content .post_form button:hover {
+  background: transparent;
+}
+
+/* update_btn */
+
+.my_blog {
+  display: none;
+}
+
+.update_btn {
+  display: none;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+/* notifiy */
+
+.notifiy {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background: green;
+  color: #fff;
+  margin-top: 70px;
+}
+
+/* my_content */
+
+.my_content {
+  width: 100%;
+  padding: 70px 50px;
+}
+
+.my_content table {
+  width: 100%;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 30px;
+}
+
+.my_content table tr {
+  margin: 30px 0;
+  width: 100%;
+}
+
+.my_content table tr button {
+  padding: 5px 10px;
+  border: 1px solid #111;
+  transition: 0.5s ease-in;
+  color: #fff;
+  cursor: pointer;
+}
+
+.my_content table tr button.delete {
+  background: rgb(106, 8, 8);
+}
+.my_content table tr button.update {
+  background: rgb(8, 67, 106);
+}
+.my_content table tr button:hover {
+  background: transparent;
+  color: #111;
+}
+
+/* id */
+
+.postNumber {
+  height: 20px;
+  display: inline-block;
+  width: 20px;
+}
+
+.postNumber::before {
+  counter-increment: section;
+  content: counter(section);
+}
+
+/*  */
+
+.main {
+  width: 70%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.post {
+  margin: 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 20px;
+}
+.post h2 {
+  padding: 10px 0;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  color: #fff;
+  background: #111;
+  text-align: center;
+}

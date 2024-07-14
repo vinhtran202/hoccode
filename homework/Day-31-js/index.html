@@ -3,35 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
+    <title>Music player</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./reset.css" />
+    <!-- Style -->
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="player">
-      <div class="player-action">
-        <i class="fa-solid fa-play"></i>
+    <div class="container">
+      <div class="image-inner">
+        <img
+          src="./img/6d1c9f8998c65a74ff7cad9726ac01fd.jpg"
+          alt="alan-walker"
+          class="image"
+        />
+        <audio src="./2.mp3" controls></audio>
       </div>
-      <div class="lyrics-toggle">
-        <button>Karaoke</button>
-      </div>
-      <div class="player-timer">
-        <span class="current-time">00:00</span>
-        <div class="progress-bar">
-          <div class="progress">
-            <span></span>
-          </div>
-        </div>
-        <span class="duration">00:00</span>
+      <div class="karaoke">
+        <h2>ALan Walker - Faded</h2>
       </div>
     </div>
-    <div class="lyrics-container" style="display: none">
-      <div class="lyrics"></div>
-    </div>
-    <audio src="./Nang-Tho-Hoang-Dung.mp3" controls></audio>
+    <script src="./lyric.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

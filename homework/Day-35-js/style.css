@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+#status {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+#start-btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
