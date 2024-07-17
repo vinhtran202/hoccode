@@ -1,21 +1,24 @@
 import React, { useState } from "react";
 import { X, Plus } from "react-feather";
 
-export default function CardAdd(props) {
-  const [card, setCard] = useState([]);
+export default function CardAdd({ cardData, ind }) {
+  const [card, setCard] = useState("");
   const [show, setShow] = useState(false);
+
   const saveCard = () => {
     if (!card) {
       return;
     }
-    props.getcard(card);
+    cardData(card, ind);
     setCard("");
-    setShow(!show);
+    setShow(false);
   };
+
   const closeBtn = () => {
     setCard("");
-    setShow(!show);
+    setShow(false);
   };
+
   return (
     <div>
       <div className="flex flex-col">
@@ -33,13 +36,13 @@ export default function CardAdd(props) {
             ></textarea>
             <div className="flex p-1">
               <button
-                onClick={() => saveCard()}
+                onClick={saveCard}
                 className="bg-sky-600 rounded p-1 text-white mr-2"
               >
                 Add Card
               </button>
               <button
-                onClick={() => closeBtn(!show)}
+                onClick={closeBtn}
                 className="hover:bg-gray-600 rounded p-1"
               >
                 <X size={16} />
@@ -49,7 +52,7 @@ export default function CardAdd(props) {
         )}
         {!show && (
           <button
-            onClick={() => setShow(!show)}
+            onClick={() => setShow(true)}
             className="flex p-1 w-full justify-start rounded items-center mt-1 hover:bg-gray-500 h-8"
           >
             <Plus size={16} />

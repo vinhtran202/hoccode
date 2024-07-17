@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "./components/Header";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
 import Main from "./components/Main";
+import Login from "./components/Login";
 import { BoardContext } from "./context/BoardContext";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function App() {
-  const boardData = {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [allBoard, setAllBoard] = useState({
     active: 0,
     boards: [
       {
@@ -46,18 +49,30 @@ export default function App() {
         ],
       },
     ],
-  };
+  });
 
-  const [allBoard, setAllBoard] = useState(boardData);
+  useEffect(() => {
+    const apiKey = localStorage.getItem("apiKey");
+    if (apiKey) {
+      setIsLoggedIn(true);
+    }
+  }, []);
+
   return (
     <>
-      <Header />
-      <BoardContext.Provider value={{ allBoard, setAllBoard }}>
-        <div className="content flex ">
-          <Sidebar />
-          <Main />
-        </div>
-      </BoardContext.Provider>
+      {isLoggedIn ? (
+        <>
+          <Header />
+          <BoardContext.Provider value={{ allBoard, setAllBoard }}>
+            <div className="content flex">
+              <Sidebar />
+              <Main />
+            </div>
+          </BoardContext.Provider>
+        </>
+      ) : (
+        <Login setIsLoggedIn={setIsLoggedIn} />
+      )}
     </>
   );
 }
